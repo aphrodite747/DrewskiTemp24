@@ -96,7 +96,7 @@ def clean_m3u_header(lines):
     ts = int(datetime.utcnow().timestamp())
     lines.insert(
         0,
-        f'#EXTM3U url-tvg="https://github.com/Drewski2423/DrewLive/raw/refs/heads/main/DrewLive.xml.gz" # Updated: {ts}'
+        f'#EXTM3U url-tvg="https://raw.githubusercontent.com/DrewLiveTemp/DrewskiTemp24/main/DrewLive.xml.gz" # Updated: {ts}'
     )
     return lines
 
