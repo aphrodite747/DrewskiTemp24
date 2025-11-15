@@ -31,6 +31,7 @@ SPORTS_METADATA = {
     "NHL": {"tvg-id": "NHL.Hockey.Dummy.us", "logo": "http://drewlive24.duckdns.org:9000/Logos/Hockey.png"},
 }
 
+
 def extract_real_m3u8(url: str):
     if "ping.gif" in url and "mu=" in url:
         parsed = urllib.parse.urlparse(url)
@@ -44,24 +45,37 @@ def extract_real_m3u8(url: str):
 
 async def scrape_single_tv(context, href, title_raw):
     full_url = BASE_URL + href
-    title = " - ".join(line.strip() for line in title_raw.splitlines() if line.strip())
-    title = title.replace(",", "")
+    title = " - ".join(line.strip() for line in title_raw.splitlines() if line.strip()).replace(",", "")
+
     stream_url = None
     page = await context.new_page()
 
-    async def handle_response(response):
+    def handle_response(response):
         nonlocal stream_url
         real = extract_real_m3u8(response.url)
-        if real and not stream_url:
+        if real and stream_url is None:
             stream_url = real
             print(f"✅ [TV] {title} → {real}")
+            try: page.remove_listener("response", handle_response)
+            except: pass
 
     page.on("response", handle_response)
+
     try:
-        await page.goto(full_url, wait_until="domcontentloaded", timeout=60000)
-        await asyncio.sleep(random.uniform(2.8, 3.5))
-    except Exception as e:
-        print(f"⚠️ Failed {title}: {e}")
+        await page.goto(full_url, wait_until="domcontentloaded", timeout=15000)
+    except:
+        pass
+
+    for _ in range(150):  
+        if stream_url:
+            break
+        await page.wait_for_timeout(25)  
+
+    try:
+        page.remove_listener("response", handle_response)
+    except:
+        pass
+
     await page.close()
     return stream_url
 
@@ -71,22 +85,23 @@ async def scrape_tv_urls():
         browser = await p.firefox.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
+
         print("🔄 Loading /tv channel list...")
-        await page.goto(CHANNEL_LIST_URL, wait_until="domcontentloaded", timeout=60000)
+        await page.goto(CHANNEL_LIST_URL, wait_until="domcontentloaded", timeout=15000)
+
         links = await page.locator("ol.list-group a").all()
-        hrefs_and_titles = [
+        hrefs_titles = [
             (await l.get_attribute("href"), await l.text_content())
             for l in links if await l.get_attribute("href")
         ]
         await page.close()
 
-        for idx, (href, title_raw) in enumerate(hrefs_and_titles, 1):
+        for idx, (href, title_raw) in enumerate(hrefs_titles, 1):
             stream = await scrape_single_tv(context, href, title_raw)
-            if stream:
-                urls.append(stream)
-            if idx % 10 == 0:
-                print("⏳ Cooling down Firefox after 10 pages...")
-                await asyncio.sleep(random.uniform(3.0, 4.5))
+            if stream: urls.append(stream)
+
+            if idx % 12 == 0:
+                await asyncio.sleep(random.uniform(1.2, 1.8))
 
         await browser.close()
     return urls
@@ -101,51 +116,24 @@ def clean_m3u_header(lines):
     return lines
 
 def replace_urls_only(lines, new_urls):
-    replaced = []
-    url_idx = 0
+    out = []
+    i = 0
     for line in lines:
-        if line.strip().startswith("http") and url_idx < len(new_urls):
-            replaced.append(new_urls[url_idx])
-            url_idx += 1
+        if line.strip().startswith("http") and i < len(new_urls):
+            out.append(new_urls[i])
+            i += 1
         else:
-            replaced.append(line)
-    return replaced
+            out.append(line)
+    return out
 
 def remove_sd_entries(lines):
     cleaned = []
-    skip_next = False
+    skip = False
     for line in lines:
-        if skip_next:
-            skip_next = False
-            continue
+        if skip: skip = False; continue
         if line.strip().startswith("#EXTINF") and "SD" in line.upper():
-            skip_next = True
-            continue
+            skip = True; continue
         cleaned.append(line)
-    return cleaned
-
-def replace_sports_section(lines, sports_urls):
-    cleaned = []
-    skip_next = False
-    sports_groups = tuple(f'TheTVApp - {s}' for s in SECTIONS_TO_APPEND.values())
-    for line in lines:
-        if skip_next:
-            skip_next = False
-            continue
-        if any(group in line for group in sports_groups):
-            skip_next = True
-            continue
-        cleaned.append(line)
-    for url, group, title in sports_urls:
-        title = title.replace(",", "").strip() + " HD"
-        meta = SPORTS_METADATA.get(group, {})
-        extinf = (
-            f'#EXTINF:-1 tvg-id="{meta.get("tvg-id","")}" '
-            f'tvg-name="{title}" tvg-logo="{meta.get("logo","")}" '
-            f'group-title="TheTVApp - {group}",{title}'
-        )
-        cleaned.append(extinf)
-        cleaned.append(url)
     return cleaned
 
 async def scrape_all_sports_sections():
@@ -153,68 +141,117 @@ async def scrape_all_sports_sections():
     async with async_playwright() as p:
         browser = await p.firefox.launch(headless=True)
         context = await browser.new_context()
-        for section_path, group_name in SECTIONS_TO_APPEND.items():
+
+        for path, group in SECTIONS_TO_APPEND.items():
             try:
+                section_url = BASE_URL + path
+                print(f"\n📁 Loading {section_url}")
+
                 page = await context.new_page()
-                section_url = BASE_URL + section_path
-                print(f"\n📁 Loading section: {section_url}")
-                await page.goto(section_url, wait_until="domcontentloaded", timeout=60000)
+                await page.goto(section_url, wait_until="domcontentloaded", timeout=15000)
                 links = await page.locator("ol.list-group a").all()
+                await page.close()
+
                 for idx, link in enumerate(links, 1):
                     href = await link.get_attribute("href")
                     title_raw = await link.text_content()
                     if not href or not title_raw:
                         continue
-                    title = " - ".join(line.strip() for line in title_raw.splitlines() if line.strip())
-                    title = title.replace(",", "")
+
+                    title = " - ".join(line.strip() for line in title_raw.splitlines() if line.strip()).replace(",", "")
                     full_url = BASE_URL + href
                     stream_url = None
+
                     sub = await context.new_page()
 
-                    async def handle_response(response):
+                    def handle_response(response):
                         nonlocal stream_url
                         real = extract_real_m3u8(response.url)
-                        if real and not stream_url:
+                        if real and stream_url is None:
                             stream_url = real
-                            print(f"✅ [{group_name}] {title} → {real}")
+                            print(f"✅ [{group}] {title} → {real}")
+                            try: sub.remove_listener("response", handle_response)
+                            except: pass
 
                     sub.on("response", handle_response)
+
                     try:
-                        await sub.goto(full_url, wait_until="domcontentloaded", timeout=60000)
-                        await asyncio.sleep(random.uniform(2.8, 3.5))
-                    except Exception as e:
-                        print(f"⚠️ {group_name} page failed: {e}")
+                        await sub.goto(full_url, wait_until="domcontentloaded", timeout=15000)
+                    except:
+                        pass
+
+                    for _ in range(160):
+                        if stream_url:
+                            break
+                        await sub.wait_for_timeout(25)
+
+                    try:
+                        sub.remove_listener("response", handle_response)
+                    except:
+                        pass
+
                     await sub.close()
+
                     if stream_url:
-                        all_urls.append((stream_url, group_name, title))
-                    if idx % 8 == 0:
-                        print("⏳ Cooling down Firefox to sync responses...")
-                        await asyncio.sleep(random.uniform(3.0, 4.5))
-                await page.close()
+                        all_urls.append((stream_url, group, title))
+
+                await asyncio.sleep(random.uniform(1.2, 1.8))
+
             except Exception as e:
-                print(f"⚠️ Skipped {group_name}: {e}")
+                print(f"⚠️ Skipped {group}: {e}")
                 continue
+
         await browser.close()
+
     return all_urls
+
+def replace_sports_section(lines, sports_urls):
+    cleaned = []
+    skip = False
+    groups = tuple(f'TheTVApp - {s}' for s in SECTIONS_TO_APPEND.values())
+
+    for line in lines:
+        if skip: skip = False; continue
+        if any(g in line for g in groups):
+            skip = True; continue
+        cleaned.append(line)
+
+    for url, group, title in sports_urls:
+        final_title = title + " HD"
+        meta = SPORTS_METADATA.get(group, {})
+        extinf = (
+            f'#EXTINF:-1 tvg-id="{meta.get("tvg-id","")}" '
+            f'tvg-name="{final_title}" tvg-logo="{meta.get("logo","")}" '
+            f'group-title="TheTVApp - {group}",{final_title}'
+        )
+        cleaned.append(extinf)
+        cleaned.append(url)
+
+    return cleaned
 
 async def main():
     if not Path(M3U8_FILE).exists():
-        print(f"❌ File not found: {M3U8_FILE}")
+        print(f"❌ Missing file: {M3U8_FILE}")
         return
+
     lines = Path(M3U8_FILE).read_text(encoding="utf-8").splitlines()
     lines = clean_m3u_header(lines)
-    print("🔧 Updating TV URLs only...")
-    new_urls = await scrape_tv_urls()
-    if new_urls:
-        lines = replace_urls_only(lines, new_urls)
+
+    print("🔧 Updating TV URLs...")
+    tv_urls = await scrape_tv_urls()
+    if tv_urls:
+        lines = replace_urls_only(lines, tv_urls)
+
     print("🧹 Removing SD entries...")
     lines = remove_sd_entries(lines)
-    print("⚽ Replacing Sports Sections...")
-    sports_urls = await scrape_all_sports_sections()
-    if sports_urls:
-        lines = replace_sports_section(lines, sports_urls)
+
+    print("⚽ Updating sports sections...")
+    sports = await scrape_all_sports_sections()
+    if sports:
+        lines = replace_sports_section(lines, sports)
+
     Path(M3U8_FILE).write_text("\n".join(lines), encoding="utf-8")
-    print("✅ Done — SD removed, URLs replaced, old sports wiped, new ones appended.")
+    print("✅ Done — playlist updated successfully.")
 
 if __name__ == "__main__":
     asyncio.run(main())
