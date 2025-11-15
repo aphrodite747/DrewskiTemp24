@@ -60,16 +60,38 @@ GROUP_RENAME_MAP = {
 }
 
 NFL_TEAMS = {
-    # your full NFL set here
+    "arizona cardinals", "atlanta falcons", "baltimore ravens", "buffalo bills",
+    "carolina panthers", "chicago bears", "cincinnati bengals", "cleveland browns",
+    "dallas cowboys", "denver broncos", "detroit lions", "green bay packers",
+    "houston texans", "indianapolis colts", "jacksonville jaguars", "kansas city chiefs",
+    "las vegas raiders", "los angeles chargers", "los angeles rams", "miami dolphins",
+    "minnesota vikings", "new england patriots", "new orleans saints", "new york giants",
+    "new york jets", "philadelphia eagles", "pittsburgh steelers", "san francisco 49ers",
+    "seattle seahawks", "tampa bay buccaneers", "tennessee titans", "washington commanders"
 }
 
 COLLEGE_TEAMS = {
-    # your full college set here
+    "alabama crimson tide", "auburn tigers", "arkansas razorbacks", "georgia bulldogs",
+    "florida gators", "lsu tigers", "ole miss rebels", "mississippi state bulldogs",
+    "tennessee volunteers", "texas longhorns", "oklahoma sooners", "oklahoma state cowboys",
+    "baylor bears", "tcu horned frogs", "kansas jayhawks", "kansas state wildcats",
+    "iowa state cyclones", "iowa hawkeyes", "michigan wolverines", "ohio state buckeyes",
+    "penn state nittany lions", "michigan state spartans", "wisconsin badgers",
+    "minnesota golden gophers", "illinois fighting illini", "northwestern wildcats",
+    "indiana hoosiers", "notre dame fighting irish", "usc trojans", "ucla bruins",
+    "oregon ducks", "oregon state beavers", "washington huskies", "washington state cougars",
+    "arizona wildcats", "stanford cardinal", "california golden bears", "colorado buffaloes",
+    "florida state seminoles", "miami hurricanes", "clemson tigers", "north carolina tar heels",
+    "duke blue devils", "nc state wolfpack", "wake forest demon deacons", "syracuse orange",
+    "virginia cavaliers", "virginia tech hokies", "louisville cardinals", "pittsburgh panthers",
+    "maryland terrapins", "rutgers scarlet knights", "nebraska cornhuskers", "purdue boilermakers",
+    "texas a&m aggies", "kentucky wildcats", "missouri tigers", "vanderbilt commodores",
+    "houston cougars", "utah utes", "byu cougars", "boise state broncos", "san diego state aztecs",
+    "cincinnati bearcats", "memphis tigers", "ucf knights", "south florida bulls", "smu mustangs",
+    "tulsa golden hurricane", "tulane green wave", "navy midshipmen", "army black knights",
+    "arizona state sun devils", "texas tech red raiders", "florida atlantic owls"
 }
 
-# ------------------------------------------------------------
-# ⭐ TRUE FIRST-M3U8 + SAFE LISTENER + FASTER PAGE LOAD
-# ------------------------------------------------------------
 async def grab_m3u8_from_iframe(page, iframe_url):
     first_url = None
 
@@ -80,7 +102,6 @@ async def grab_m3u8_from_iframe(page, iframe_url):
         if ".m3u8" in url and first_url is None:
             print(f"✅ Found M3U8 Stream: {url}")
             first_url = url
-            # remove listener safely once we got first URL
             try:
                 page.remove_listener("response", handle_response)
             except:
@@ -90,14 +111,11 @@ async def grab_m3u8_from_iframe(page, iframe_url):
 
     print(f"🌐 Navigating to iframe: {iframe_url}")
 
-    # Faster, and we don't care if it "fails" as long as we saw a URL
     try:
         await page.goto(iframe_url, timeout=5000, wait_until="commit")
     except Exception:
-        # No noisy ❌ log here – if we already got the URL, it's fine
         pass
 
-    # tiny delay to let any JS kick in if needed
     try:
         await page.wait_for_timeout(300)
         nested_iframe = page.locator("iframe")
@@ -115,7 +133,7 @@ async def grab_m3u8_from_iframe(page, iframe_url):
 
     print("⏳ Waiting for stream to be requested (max 10s)...")
 
-    for _ in range(400):  # up to ~10s, but we break as soon as first_url is set
+    for _ in range(400): 
         if first_url:
             break
         await page.wait_for_timeout(25)
@@ -136,9 +154,6 @@ async def grab_m3u8_from_iframe(page, iframe_url):
     print(f"🗑️ Discarding invalid or unreachable URL: {first_url}")
     return set()
 
-# ------------------------------------------------------------
-# Everything below this stays EXACTLY the same
-# ------------------------------------------------------------
 async def check_m3u8_url(url, referer):
     if "gg.poocloud.in" in url:
         return True
