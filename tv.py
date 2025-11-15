@@ -2,7 +2,7 @@ import asyncio
 import urllib.parse
 import random
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, UTC
 from playwright.async_api import async_playwright
 
 M3U8_FILE = "TheTVApp.m3u8"
@@ -20,6 +20,19 @@ SECTIONS_TO_APPEND = {
     "/ppv": "PPV",
     "/events": "Events",
     "/nhl": "NHL",
+}
+
+HEADER_TEXT_MAP = {
+    "NCAAF": "College Football Streams",
+    "NCAAB": "College Basketball Streams",
+    "NBA": "NBA Streams",
+    "NFL": "NFL Streams",
+    "NHL": "NHL Streams",
+    "MLB": "MLB Streams",
+    "PPV": "PPV Events",
+    "WNBA": "WNBA Streams",
+    "Soccer": "Soccer Streams",
+    "Events": "Events",
 }
 
 SPORTS_METADATA = {
@@ -112,7 +125,7 @@ async def scrape_tv_urls():
 
 def clean_m3u_header(lines):
     lines = [l for l in lines if not l.strip().startswith("#EXTM3U")]
-    ts = int(datetime.utcnow().timestamp())
+    ts = int(datetime.now(UTC).timestamp())
     lines.insert(
         0,
         f'#EXTM3U url-tvg="https://raw.githubusercontent.com/DrewLiveTemp/DrewskiTemp24/main/DrewLive.xml.gz" # Updated: {ts}'
@@ -155,16 +168,40 @@ async def scrape_all_sports_sections():
         for path, group in SECTIONS_TO_APPEND.items():
             try:
                 section_url = BASE_URL + path
-                print(f"\n📁 Loading {section_url}")
+                header_text = HEADER_TEXT_MAP.get(group, group)
+
+                print(f"\n📁 Loading {section_url} (looking for H3: '{header_text}')")
 
                 page = await context.new_page()
-                await page.goto(section_url, wait_until="domcontentloaded", timeout=15000)
-                links = await page.locator("ol.list-group a").all()
+                await page.goto(section_url, wait_until="load", timeout=15000)
+                
+                locator_xpath = f"//h3[text()='{header_text}']/following-sibling::div//ol[contains(@class, 'list-group')]/a"
+                
+                links = []
+                try:
+                    await page.wait_for_selector(locator_xpath, state="attached", timeout=5000)
+                    links = await page.locator(locator_xpath).all()
+                except Exception:
+                    pass
+                
+                print(f"    Found {len(links)} links for '{group}'.")
+
+                if not links:
+                    await page.close()
+                    continue 
+
+                hrefs_and_titles = []
+                for link in links:
+                    try:
+                        href = await link.get_attribute("href")
+                        title_raw = await link.text_content()
+                        hrefs_and_titles.append((href, title_raw))
+                    except Exception as e:
+                        print(f"   ⚠️ Error reading a link (it may have disappeared): {e}")
+
                 await page.close()
 
-                for idx, link in enumerate(links, 1):
-                    href = await link.get_attribute("href")
-                    title_raw = await link.text_content()
+                for href, title_raw in hrefs_and_titles:
                     if not href or not title_raw:
                         continue
 
@@ -216,7 +253,6 @@ async def scrape_all_sports_sections():
     return all_urls
 
 
-# ✅ **FIXED SPORTS SECTION — works with new TV flow**
 def replace_sports_section(lines, sports_urls):
     cleaned = []
     skip_next = False
@@ -270,7 +306,7 @@ async def main():
         lines = replace_sports_section(lines, sports)
 
     Path(M3U8_FILE).write_text("\n".join(lines), encoding="utf-8")
-    print("✅ Done — playlist updated successfully.")
+    print("✅ Done — playlist updated successfully (TV & Sports).")
 
 
 if __name__ == "__main__":
