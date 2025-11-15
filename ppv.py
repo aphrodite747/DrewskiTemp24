@@ -229,9 +229,9 @@ def build_m3u(streams, url_map):
             continue
 
         orig_cat = s["category"]
-        final_group = GROUP_RENAME_MAP.get(orig_cat)
+        final_group = GROUP_RENAME_MAP.get(orig_cat, "PPVLand - Random Events")
         logo = s.get("poster") or CATEGORY_LOGOS.get(orig_cat)
-        tvg_id = CATEGORY_TVG_IDS.get(orig_cat)
+        tvg_id = CATEGORY_TVG_IDS.get(orig_cat, "24.7.Dummy.us")
 
         if orig_cat == "American Football":
             nl = name_lower
@@ -297,10 +297,16 @@ async def main():
             key = f"{s['name']}::{s['category']}::{s['iframe']}"
             url_map[key] = await grab_m3u8_from_iframe(page, s["iframe"])
 
+
+
         live_now = await grab_live_now_from_html(page)
+
         for s in live_now:
             key = f"{s['name']}::{s['category']}::{s['iframe']}"
             url_map[key] = await grab_m3u8_from_iframe(page, s["iframe"])
+
+        for s in live_now:
+            s["category"] = "Live Now"
 
         streams.extend(live_now)
 
