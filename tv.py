@@ -43,6 +43,7 @@ def extract_real_m3u8(url: str):
         return url
     return None
 
+
 async def scrape_single_tv(context, href, title_raw):
     full_url = BASE_URL + href
     title = " - ".join(line.strip() for line in title_raw.splitlines() if line.strip()).replace(",", "")
@@ -66,10 +67,10 @@ async def scrape_single_tv(context, href, title_raw):
     except:
         pass
 
-    for _ in range(150):  
+    for _ in range(150):
         if stream_url:
             break
-        await page.wait_for_timeout(25)  
+        await page.wait_for_timeout(25)
 
     try:
         page.remove_listener("response", handle_response)
@@ -78,6 +79,7 @@ async def scrape_single_tv(context, href, title_raw):
 
     await page.close()
     return stream_url
+
 
 async def scrape_tv_urls():
     urls = []
@@ -98,13 +100,15 @@ async def scrape_tv_urls():
 
         for idx, (href, title_raw) in enumerate(hrefs_titles, 1):
             stream = await scrape_single_tv(context, href, title_raw)
-            if stream: urls.append(stream)
+            if stream:
+                urls.append(stream)
 
             if idx % 12 == 0:
                 await asyncio.sleep(random.uniform(1.2, 1.8))
 
         await browser.close()
     return urls
+
 
 def clean_m3u_header(lines):
     lines = [l for l in lines if not l.strip().startswith("#EXTM3U")]
@@ -114,6 +118,7 @@ def clean_m3u_header(lines):
         f'#EXTM3U url-tvg="https://raw.githubusercontent.com/DrewLiveTemp/DrewskiTemp24/main/DrewLive.xml.gz" # Updated: {ts}'
     )
     return lines
+
 
 def replace_urls_only(lines, new_urls):
     out = []
@@ -126,15 +131,20 @@ def replace_urls_only(lines, new_urls):
             out.append(line)
     return out
 
+
 def remove_sd_entries(lines):
     cleaned = []
     skip = False
     for line in lines:
-        if skip: skip = False; continue
+        if skip:
+            skip = False
+            continue
         if line.strip().startswith("#EXTINF") and "SD" in line.upper():
-            skip = True; continue
+            skip = True
+            continue
         cleaned.append(line)
     return cleaned
+
 
 async def scrape_all_sports_sections():
     all_urls = []
@@ -205,29 +215,38 @@ async def scrape_all_sports_sections():
 
     return all_urls
 
+
+# ✅ **FIXED SPORTS SECTION — works with new TV flow**
 def replace_sports_section(lines, sports_urls):
     cleaned = []
-    skip = False
-    groups = tuple(f'TheTVApp - {s}' for s in SECTIONS_TO_APPEND.values())
+    skip_next = False
+
+    target_groups = {f'TheTVApp - {s}' for s in SECTIONS_TO_APPEND.values()}
 
     for line in lines:
-        if skip: skip = False; continue
-        if any(g in line for g in groups):
-            skip = True; continue
+        if skip_next:
+            skip_next = False
+            continue
+
+        if line.startswith("#EXTINF") and any(g in line for g in target_groups):
+            skip_next = True
+            continue
+
         cleaned.append(line)
 
     for url, group, title in sports_urls:
-        final_title = title + " HD"
+        final_title = f"{title} HD"
         meta = SPORTS_METADATA.get(group, {})
-        extinf = (
+
+        cleaned.append(
             f'#EXTINF:-1 tvg-id="{meta.get("tvg-id","")}" '
             f'tvg-name="{final_title}" tvg-logo="{meta.get("logo","")}" '
             f'group-title="TheTVApp - {group}",{final_title}'
         )
-        cleaned.append(extinf)
         cleaned.append(url)
 
     return cleaned
+
 
 async def main():
     if not Path(M3U8_FILE).exists():
@@ -252,6 +271,7 @@ async def main():
 
     Path(M3U8_FILE).write_text("\n".join(lines), encoding="utf-8")
     print("✅ Done — playlist updated successfully.")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
