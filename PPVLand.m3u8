@@ -1,9 +1,4 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz"
-#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/004b8c4a5ad53813eb31a5d4c0128dfe-thumbnail.jpg" group-title="PPVLand - NFL Action",Washington Commanders vs. Miami Dolphins
-#EXTVLCOPT:http-origin=https://ppv.to
-#EXTVLCOPT:http-referrer=https://ppv.to/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/miamidolphins/index.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/54aa61e14195478973adbd4719599cb5-thumbnail.jpg" group-title="PPVLand - NFL Action",NFL RedZone
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -23,7 +18,7 @@ https://gg.poocloud.in/buffalobills/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/tennesseetitans/index.m3u8
+https://gg.poocloud.in/buffalobills/index.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/1cf6e085a279ebe93bdaa092100cc98a-thumbnail.jpg" group-title="PPVLand - NFL Action",Chicago Bears vs. Minnesota Vikings
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -33,12 +28,12 @@ https://gg.poocloud.in/minnesotavikings/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/minnesotavikings/index.m3u8
+https://gg.poocloud.in/newyorkgiants/index.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/16db1e0d08aecfd77829338a221acb7a-thumbnail.jpg" group-title="PPVLand - NFL Action",Cincinnati Bengals vs. Pittsburgh Steelers
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/newyorkgiants/index.m3u8
+https://gg.poocloud.in/pittsburghsteelers/index.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/2cb6c34ea00bcfc5a11fea62f410a351-thumbnail.jpg" group-title="PPVLand - NFL Action",Los Angeles Chargers vs. Jacksonville Jaguars
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -113,7 +108,7 @@ https://gg.poocloud.in/nba_dallasmavericks/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/nba_phoenixsuns/index.m3u8
+https://gg.poocloud.in/nba_utahjazz/index.m3u8
 #EXTINF:-1 tvg-id="Darts.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/b09ec5417e8f5831860f91a0a8ea5e2b-thumbnail.jpg" group-title="PPVLand - Darts",Grand Slam of Darts - Day 9 Evening
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -123,7 +118,7 @@ https://gg.poocloud.in/darts/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/darts/index.m3u8
+https://gg.poocloud.in/wc_ukr/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/51f85ddf83900165d723ff2798ea34ee-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Serbia vs. Latvia
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -133,22 +128,22 @@ https://gg.poocloud.in/wc_srb/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/wc_alb/index.m3u8
+https://gg.poocloud.in/wc_srb/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/928f7c5eab74f3b4befb9003ed257efa-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Azerbaijan vs. France
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/wc_alb/tracks-v1a1/mono.ts.m3u8
+https://gg.poocloud.in/wc_aze/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/c2a4a12a628c94af8d1ec559c5b89727-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Italy vs. Norway
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/wc_ita/index.m3u8
+https://gg.poocloud.in/wc_aze/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/22750b4902c2558ffe63995d580f7b7f-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Israel vs. Moldova
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/wc_isr/index.m3u8
+https://gg.poocloud.in/wc_ita/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/b51d9ae94e06331c670d728b0a7a8141-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Czechia vs. Gibraltar
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -163,12 +158,12 @@ https://gg.poocloud.in/wc_nir/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/wc_nir/index.m3u8
+https://gg.poocloud.in/wc_mne/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/2481cf7dd7500299937d25ef888b0079-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Malta vs. Poland
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/wc_mlt/index.m3u8
+https://gg.poocloud.in/wc_mne/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/782d15ceccf823f5881d9b8af99fcd18-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Germany vs. Slovakia
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -178,7 +173,7 @@ https://gg.poocloud.in/wc_mlt/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/wc_ned/index.m3u8
+https://gg.poocloud.in/wc_ger/index.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/8b366fdc15dac07c82459a2b046468cb-thumbnail.jpg" group-title="PPVLand - NHL Action",Vancouver Canucks vs. Tampa Bay Lightning
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -203,12 +198,12 @@ https://gg.poocloud.in/newyorkrangers/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/newyorkrangers/index.m3u8
+https://gg.poocloud.in/coloradoavalanche/index.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/a4b0b249bc493a950bbcf7eb9980302a-thumbnail.jpg" group-title="PPVLand - Random Events",Skankfest: New Orleans
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/coloradoavalanche/index.m3u8
+https://gg.poocloud.in/skankfest-new-orleans/index.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://thumbs.poocloud.in/southpark/preview.jpg" group-title="PPVLand - Live Channels 24/7",24/7 South Park
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -218,8 +213,8 @@ https://gg.poocloud.in/skankfest-new-orleans/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/southpark/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://thumbs.poocloud.in/familyguy/preview.jpg" group-title="PPVLand - Live Channels 24/7",24/7 Family‌​‌​‌‌​​‌​‌‌​​‌​​‌‌‌​‌‌​​‌​‌​‌​‌ Guy
+https://gg.poocloud.in/cows/index.m3u8
+#EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://thumbs.poocloud.in/familyguy/preview.jpg" group-title="PPVLand - Live Channels 24/7",24/7 Family​​​‌​‌​​​​‌‌​‌‌‌‌‌​‌​‌‌​​‌‌‌‌​​​ Guy
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -228,4 +223,4 @@ https://gg.poocloud.in/familyguy/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/familyguy/index.m3u8
+https://gg.poocloud.in/familyguy/tracks-v1a1/mono.ts.m3u8
