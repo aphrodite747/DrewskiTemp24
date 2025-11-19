@@ -6,14 +6,13 @@ from datetime import datetime
 from playwright.async_api import async_playwright
 
 logging.basicConfig(
-    filename="scrape.log",
     level=logging.INFO,
     format="%(asctime)s | %(levelname)-8s | %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
+    datefmt="%H:%M:%S",
 )
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
-console.setFormatter(logging.Formatter("%(asctime)s | %(levelname)-8s | %(message)s", "%H:%M:%S"))
+console.setFormatter(logging.Formatter("%H:%M:%S | %(levelname)-8s | %(message)s"))
 logging.getLogger("").addHandler(console)
 log = logging.getLogger("scraper")
 
@@ -58,13 +57,10 @@ total_embeds = 0
 total_streams = 0
 total_failures = 0
 
-
 def strip_non_ascii(text: str) -> str:
-    """Remove emojis and non-ASCII characters."""
     if not text:
         return ""
     return re.sub(r"[^\x00-\x7F]+", "", text)
-
 
 def get_all_matches():
     endpoints = ["live"]
@@ -82,7 +78,6 @@ def get_all_matches():
     log.info(f"🎯 Total matches collected: {len(all_matches)}")
     return all_matches
 
-
 def get_embed_urls_from_api(source):
     try:
         s_name, s_id = source.get("source"), source.get("id")
@@ -94,7 +89,6 @@ def get_embed_urls_from_api(source):
         return [d.get("embedUrl") for d in data if d.get("embedUrl")]
     except Exception:
         return []
-
 
 async def extract_m3u8(page, embed_url):
     global total_failures
@@ -173,7 +167,6 @@ async def extract_m3u8(page, embed_url):
         log.warning(f"⚠️ {embed_url} failed: {e}")
         return None
 
-
 def validate_logo(url, category):
     cat = (category or "other").lower().replace("-", " ").strip()
     fallback = FALLBACK_LOGOS.get(cat, FALLBACK_LOGOS["other"])
@@ -185,7 +178,6 @@ def validate_logo(url, category):
         except Exception:
             pass
     return fallback
-
 
 def build_logo_url(match):
     cat = (match.get("category") or "other").strip()
@@ -199,7 +191,6 @@ def build_logo_url(match):
         url = f"https://streamed.pk/api/images/proxy/{match['poster']}.webp"
         return validate_logo(url, cat), cat
     return validate_logo(None, cat), cat
-
 
 async def process_match(index, match, total, ctx):
     global total_embeds, total_streams
@@ -227,7 +218,6 @@ async def process_match(index, match, total, ctx):
     log.info(f"     ❌ No working streams ({match_embeds} embeds)")
     return match, None
 
-
 async def generate_playlist():
     global total_matches
     matches = get_all_matches()
@@ -239,7 +229,7 @@ async def generate_playlist():
     content = ["#EXTM3U"]
     success = 0
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True, channel="chrome")
+        browser = await p.chromium.launch(headless=True)
         ctx = await browser.new_context(extra_http_headers=CUSTOM_HEADERS)
         sem = asyncio.Semaphore(2)
 
@@ -273,7 +263,6 @@ async def generate_playlist():
     log.info(f"\n🎉 {success} working streams written to playlist.")
     return "\n".join(content)
 
-
 if __name__ == "__main__":
     start = datetime.now()
     log.info("🚀 Starting StreamedSU scrape run (LIVE only)...")
@@ -282,10 +271,8 @@ if __name__ == "__main__":
         f.write(playlist)
     end = datetime.now()
     duration = (end - start).total_seconds()
-    log.info("\n📊 FINAL SUMMARY ------------------------------")
-    log.info(f"🕓 Duration: {duration:.2f} sec")
+    log.info(f"\n🕓 Duration: {duration:.2f} sec")
     log.info(f"📺 Matches:  {total_matches}")
     log.info(f"🔗 Embeds:   {total_embeds}")
     log.info(f"✅ Streams:  {total_streams}")
     log.info(f"❌ Failures: {total_failures}")
-    log.info("------------------------------------------------")
