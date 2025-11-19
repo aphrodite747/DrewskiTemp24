@@ -1,0 +1,751 @@
+2025-11-19 05:52:45 | INFO     | 🚀 Starting StreamedSU scrape run (LIVE only)...
+2025-11-19 05:52:45 | INFO     | 📡 Fetching live matches...
+2025-11-19 05:52:45 | INFO     | ✅ live: 205 matches
+2025-11-19 05:52:45 | INFO     | 🎯 Total matches collected: 205
+2025-11-19 05:53:02 | INFO     | 
+🎯 [1/205] ARIA Awards
+2025-11-19 05:53:07 | INFO     |   ↳ 3 embed URLs
+2025-11-19 05:53:07 | INFO     |      • (1/3) https://embedsports.top/embed/alpha/aria-awards/1
+2025-11-19 05:53:10 | INFO     |   ⚡ Stream: https://lb1.strmd.top/secure/mWkhRVFjhrWKPKuIzNQibAGpaUoJxuMN/alpha/stream/aria-awards/1/playlist.m3u8
+2025-11-19 05:53:12 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:12 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:13 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:13 | INFO     |      ✅ Stream OK for ARIA Awards
+2025-11-19 05:53:13 | INFO     | 
+🎯 [2/205] N.Hanatani/H.Sato - Y.Starodubtseva/K.Zavatska
+2025-11-19 05:53:14 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:14 | INFO     | 
+🎯 [3/205] Cezar Gabriel Papoe - Ronetto Van Tilburg
+2025-11-19 05:53:14 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:14 | INFO     | 
+🎯 [4/205] Ja.Delaney/J.Kubler - F.Peliwo/T.L.Sach
+2025-11-19 05:53:14 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:14 | INFO     | 
+🎯 [5/205] P.Isaro/N.Kaliyanda Poonacha - N.Oberleitner/M.Vrbensky
+2025-11-19 05:53:14 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:14 | INFO     | 
+🎯 [6/205] R.Ho/A.Santillan - Y.Kusuhara/S.Nakagawa
+2025-11-19 05:53:14 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:14 | INFO     | 
+🎯 [7/205] Rares Teodor Pieleanu - Vojtech Petr
+2025-11-19 05:53:15 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:15 | INFO     | 
+🎯 [8/205] Y.H.Hsu/T.H.Huang - K.Isomura/Y.Shimizu
+2025-11-19 05:53:15 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:15 | INFO     | 
+🎯 [9/205] Portland Trail Blazers vs Phoenix Suns
+2025-11-19 05:53:15 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:53:15 | INFO     |      • (1/1) https://embedsports.top/embed/admin/ppv-phoenix-suns-vs-portland-trail-blazers/1
+2025-11-19 05:53:15 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:16 | INFO     |   ⚡ Stream: https://gg.poocloud.in/nba_portlandtrailblazers/index.m3u8
+2025-11-19 05:53:16 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:17 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:17 | INFO     |      ✅ Stream OK for Portland Trail Blazers vs Phoenix Suns
+2025-11-19 05:53:17 | INFO     | 
+🎯 [10/205] Ireland tour of Bangladesh: Bangladesh vs Ireland
+2025-11-19 05:53:17 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:53:17 | INFO     |      • (1/1) https://embedsports.top/embed/charlie/bangladesh-vs-ireland-1629467924/1
+2025-11-19 05:53:18 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:18 | INFO     |   ⚡ Stream: https://lb10.strmd.top/secure/plvjHYnXWzdkEpQJyblfWXFFYElmsbej/charlie/stream/bangladesh-vs-ireland-1629467924/1/playlist.m3u8
+2025-11-19 05:53:19 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:20 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:20 | INFO     |      ✅ Stream OK for Ireland tour of Bangladesh: Bangladesh vs Ireland
+2025-11-19 05:53:20 | INFO     | 
+🎯 [11/205] M.Kawamura/H.Sato - I-Hsuan Cho/Yi Tsen Cho
+2025-11-19 05:53:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:20 | INFO     | 
+🎯 [12/205] N.Katsumi/K.Yoshioka - H.Kinoshita/Y.Kitahara
+2025-11-19 05:53:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:20 | INFO     | 
+🎯 [13/205] Shuai Zhang - Haruka Kaji
+2025-11-19 05:53:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:20 | INFO     | 
+🎯 [14/205] Y.Hosoki/A.Ozeki - M.Kobori/A.Shimizu
+2025-11-19 05:53:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:20 | INFO     | 
+🎯 [15/205] M.Gengel/E.Hudd - K.Ogura/C.E.Overbeck
+2025-11-19 05:53:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:21 | INFO     | 
+🎯 [16/205] Los Angeles Lakers vs Utah Jazz
+2025-11-19 05:53:21 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:53:21 | INFO     |      • (1/1) https://embedsports.top/embed/admin/ppv-utah-jazz-vs-los-angeles-lakers/1
+2025-11-19 05:53:21 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:21 | INFO     |   ⚡ Stream: https://gg.poocloud.in/nba_losangeleslakers/index.m3u8
+2025-11-19 05:53:22 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:23 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:23 | INFO     |      ✅ Stream OK for Los Angeles Lakers vs Utah Jazz
+2025-11-19 05:53:23 | INFO     | 
+🎯 [17/205] UCLA vs Sacramento State
+2025-11-19 05:53:23 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:53:23 | INFO     |      • (1/1) https://embedsports.top/embed/admin/ppv-sacramento-state-hornets-vs-ucla-bruins/1
+2025-11-19 05:53:24 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:24 | INFO     |   ⚡ Stream: https://gg.poocloud.in/BTN/index.m3u8
+2025-11-19 05:53:24 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:26 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:26 | INFO     |      ✅ Stream OK for UCLA vs Sacramento State
+2025-11-19 05:53:26 | INFO     | 
+🎯 [18/205] M.Hermans/M.Veldheer - K.Uesugi/S.Watanabe
+2025-11-19 05:53:26 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:26 | INFO     | 
+🎯 [19/205] M.Imamura/R.Matsuda - L.R.Jones/S.Sanada
+2025-11-19 05:53:26 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:26 | INFO     | 
+🎯 [20/205] N.Lammons/J.Rojer - G.Goldhoff/T.Winegar
+2025-11-19 05:53:26 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:26 | INFO     | 
+🎯 [21/205] California Baptist vs UC Riverside
+2025-11-19 05:53:26 | INFO     |   ↳ 2 embed URLs
+2025-11-19 05:53:26 | INFO     |      • (1/2) https://embedsports.top/embed/alpha/uc-riverside-vs-california-baptist/1
+2025-11-19 05:53:27 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:27 | INFO     |   ⚡ Stream: https://lb2.strmd.top/secure/qJYgAWEonwzzIxzFpAwoniqcYMWAEGoV/alpha/stream/uc-riverside-vs-california-baptist/1/playlist.m3u8
+2025-11-19 05:53:27 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:28 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:28 | INFO     |      ✅ Stream OK for California Baptist vs UC Riverside
+2025-11-19 05:53:29 | INFO     | 
+🎯 [22/205] Nevada vs UC Davis
+2025-11-19 05:53:29 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:29 | INFO     | 
+🎯 [23/205] San Diego State vs Troy
+2025-11-19 05:53:29 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:29 | INFO     | 
+🎯 [24/205] California vs Presbyterian
+2025-11-19 05:53:29 | INFO     |   ↳ 2 embed URLs
+2025-11-19 05:53:29 | INFO     |      • (1/2) https://embedsports.top/embed/alpha/presbyterian-vs-california/1
+2025-11-19 05:53:30 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:30 | INFO     |   ⚡ Stream: https://lb8.strmd.top/secure/jzKwNjHgdUYQmJbwsMSeuUplcbRebElD/alpha/stream/presbyterian-vs-california/1/playlist.m3u8
+2025-11-19 05:53:31 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:32 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:32 | INFO     |      ✅ Stream OK for California vs Presbyterian
+2025-11-19 05:53:32 | INFO     | 
+🎯 [25/205] Santa Clara vs Idaho State
+2025-11-19 05:53:32 | INFO     |   ↳ 2 embed URLs
+2025-11-19 05:53:32 | INFO     |      • (1/2) https://embedsports.top/embed/alpha/idaho-state-vs-santa-clara/1
+2025-11-19 05:53:32 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:33 | INFO     |   ⚡ Stream: https://lb8.strmd.top/secure/ekcaamlttInkDveDtcnpLSJFpRXHKKvh/alpha/stream/idaho-state-vs-santa-clara/1/playlist.m3u8
+2025-11-19 05:53:33 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:34 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:34 | INFO     |      ✅ Stream OK for Santa Clara vs Idaho State
+2025-11-19 05:53:34 | INFO     | 
+🎯 [26/205] San Jose Sharks vs Utah Mammoth
+2025-11-19 05:53:34 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:53:34 | INFO     |      • (1/1) https://embedsports.top/embed/admin/ppv-utah-mammoth-vs-san-jose-sharks/1
+2025-11-19 05:53:35 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:35 | INFO     |   ⚡ Stream: https://gg.poocloud.in/sanjosesharks/index.m3u8
+2025-11-19 05:53:35 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:36 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:36 | INFO     |      ✅ Stream OK for San Jose Sharks vs Utah Mammoth
+2025-11-19 05:53:37 | INFO     | 
+🎯 [27/205] Vegas Golden Knights vs New York Rangers
+2025-11-19 05:53:37 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:53:37 | INFO     |      • (1/1) https://embedsports.top/embed/admin/ppv-new-york-rangers-vs-vegas-golden-knights/1
+2025-11-19 05:53:37 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:37 | INFO     |   ⚡ Stream: https://gg.poocloud.in/vegasgoldenknights/index.m3u8
+2025-11-19 05:53:38 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:39 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:39 | INFO     |      ✅ Stream OK for Vegas Golden Knights vs New York Rangers
+2025-11-19 05:53:39 | INFO     | 
+🎯 [28/205] Louisiana vs Stanford
+2025-11-19 05:53:39 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:39 | INFO     | 
+🎯 [29/205] Northwestern State vs San Francisco
+2025-11-19 05:53:40 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:40 | INFO     | 
+🎯 [30/205] #11 USC (W) vs Portland (W)
+2025-11-19 05:53:40 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:40 | INFO     | 
+🎯 [31/205] Haruto Ishikawa - Noah Brownrigg
+2025-11-19 05:53:40 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:40 | INFO     | 
+🎯 [32/205] Luca Connaughton - Arjun Balakrishnan
+2025-11-19 05:53:40 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:40 | INFO     | 
+🎯 [33/205] Bakersfield Condors vs Calgary Wranglers
+2025-11-19 05:53:40 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:40 | INFO     | 
+🎯 [34/205] Southern vs Washington
+2025-11-19 05:53:41 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:41 | INFO     | 
+🎯 [35/205] Eunhye Lee - Katie Swan
+2025-11-19 05:53:41 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:41 | INFO     | 
+🎯 [36/205] H.Jones/P.Marinkov - C.Hewitt/L.Hewitt
+2025-11-19 05:53:41 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:41 | INFO     | 
+🎯 [37/205] Ikumi Yamazaki - Storm Hunter
+2025-11-19 05:53:41 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:41 | INFO     | 
+🎯 [38/205] M.Gengel/E.Hudd - J.Charlton/B.Ellis
+2025-11-19 05:53:41 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:41 | INFO     | 
+🎯 [39/205] G.Ando/J.Ishijima - T.Loof/R.Ramanathan
+2025-11-19 05:53:42 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:42 | INFO     | 
+🎯 [40/205] J.Sung Nam/T.Yuzuki - J.Nedunchezhiyan/U.Park
+2025-11-19 05:53:42 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:42 | INFO     | 
+🎯 [41/205] Yasutaka Uchiyama - Michael Vrbensky
+2025-11-19 05:53:42 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:42 | INFO     | 
+🎯 [42/205] Anna Rogers - Rita Colyer
+2025-11-19 05:53:42 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:42 | INFO     | 
+🎯 [43/205] Boise State vs Wichita State
+2025-11-19 05:53:42 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:42 | INFO     | 
+🎯 [44/205] Fresno State vs Stephen F Austin
+2025-11-19 05:53:43 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:43 | INFO     | 
+🎯 [45/205] Pepperdine vs New Orleans
+2025-11-19 05:53:43 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:43 | INFO     | 
+🎯 [46/205] Duke vs Kansas
+2025-11-19 05:53:43 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:43 | INFO     | 
+🎯 [47/205] Texas vs Rider
+2025-11-19 05:53:44 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:44 | INFO     | 
+🎯 [48/205] Syracuse vs Monmouth
+2025-11-19 05:53:44 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:44 | INFO     | 
+🎯 [49/205] Grambling vs San Diego
+2025-11-19 05:53:44 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:44 | INFO     | 
+🎯 [50/205] Purdue Fort Wayne vs Utah
+2025-11-19 05:53:44 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:44 | INFO     | 
+🎯 [51/205] Montana State (W) vs UNLV (W)
+2025-11-19 05:53:45 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:45 | INFO     | 
+🎯 [52/205] Alisa Danilova - Maria Fernanda Navarro
+2025-11-19 05:53:45 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:45 | INFO     | 
+🎯 [53/205] Berfu Cengiz - Lanlana Tararudee
+2025-11-19 05:53:45 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:45 | INFO     | 
+🎯 [54/205] Dasha Plekhanova - Kayla Cross
+2025-11-19 05:53:45 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:45 | INFO     | 
+🎯 [55/205] Jaeda Daniel - Victoria Rodriguez
+2025-11-19 05:53:45 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:45 | INFO     | 
+🎯 [56/205] Mai Hontama - Natsuki Yashimoto
+2025-11-19 05:53:45 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:45 | INFO     | 
+🎯 [57/205] Malaika Rapolu - Hina Inoue
+2025-11-19 05:53:46 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:46 | INFO     | 
+🎯 [58/205] Nao Hibino - Viktoria Morvayova
+2025-11-19 05:53:46 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:46 | INFO     | 
+🎯 [59/205] Rina Saigo - Mio Mushika
+2025-11-19 05:53:46 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:46 | INFO     | 
+🎯 [60/205] Iowa vs Southeast Missouri State
+2025-11-19 05:53:46 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:46 | INFO     | 
+🎯 [61/205] Chicago Blackhawks vs Calgary Flames
+2025-11-19 05:53:47 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:53:47 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17526/1
+2025-11-19 05:53:47 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:51 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:52 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:53:52 | INFO     | 
+🎯 [62/205] Ecuador vs New Zealand
+2025-11-19 05:53:52 | INFO     |   ↳ 4 embed URLs
+2025-11-19 05:53:52 | INFO     |      • (1/4) https://embedsports.top/embed/alpha/new-zealand-vs-west-indies/1
+2025-11-19 05:53:53 | INFO     |   👆 First click triggered ad
+2025-11-19 05:53:53 | INFO     |   ⚡ Stream: https://lb10.strmd.top/secure/tHATjxKJmeUpbPuCjsnhkZYwOprwoCvz/alpha/stream/new-zealand-vs-west-indies/1/playlist.m3u8
+2025-11-19 05:53:54 | INFO     |   🚫 Forcing close on ad tab: chrome-error://chromewebdata/
+2025-11-19 05:53:55 | INFO     |   ▶️ Second click started player
+2025-11-19 05:53:55 | INFO     |      ✅ Stream OK for Ecuador vs New Zealand
+2025-11-19 05:53:55 | INFO     | 
+🎯 [63/205] Colombia vs Australia
+2025-11-19 05:53:55 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:55 | INFO     | 
+🎯 [64/205] Mexico vs Paraguay
+2025-11-19 05:53:55 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:55 | INFO     | 
+🎯 [65/205] Canada vs Venezuela
+2025-11-19 05:53:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:56 | INFO     | 
+🎯 [66/205] Air Force (W) vs Portland State (W)
+2025-11-19 05:53:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:56 | INFO     | 
+🎯 [67/205] Alana Subasic - Elena Micic
+2025-11-19 05:53:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:56 | INFO     | 
+🎯 [68/205] Gabriella Da Silva Fick - Destanee Aiava
+2025-11-19 05:53:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:56 | INFO     | 
+🎯 [69/205] Talia Gibson - Belle Thompson
+2025-11-19 05:53:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:56 | INFO     | 
+🎯 [70/205] Colombia - Nigeria
+2025-11-19 05:53:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:56 | INFO     | 
+🎯 [71/205] James Mccabe - Karan Singh
+2025-11-19 05:53:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:56 | INFO     | 
+🎯 [72/205] R.Hijikata/M.Polmans - F.Bass/A.Rai
+2025-11-19 05:53:57 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:57 | INFO     | 
+🎯 [73/205] Luke McMillan - Tomislav Edward Papac
+2025-11-19 05:53:57 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:57 | INFO     | 
+🎯 [74/205] Scott Jones - Eric Tripathi
+2025-11-19 05:53:57 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:57 | INFO     | 
+🎯 [75/205] Minnesota vs Chicago State
+2025-11-19 05:53:57 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:57 | INFO     | 
+🎯 [76/205] Salt Lake City Stars vs South Bay Lakers
+2025-11-19 05:53:57 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:53:57 | INFO     | 
+🎯 [77/205] San Antonio Spurs vs Memphis Grizzlies
+2025-11-19 05:53:58 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:53:58 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17532/1
+2025-11-19 05:53:58 | INFO     |   👆 First click triggered ad
+2025-11-19 05:54:02 | INFO     |   ▶️ Second click started player
+2025-11-19 05:54:03 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:54:03 | INFO     | 
+🎯 [78/205] Arkansas vs Winthrop
+2025-11-19 05:54:03 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:03 | INFO     | 
+🎯 [79/205] LSU vs Alcorn State
+2025-11-19 05:54:03 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:03 | INFO     | 
+🎯 [80/205] Mississippi vs Austin Peay
+2025-11-19 05:54:04 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:04 | INFO     | 
+🎯 [81/205] Texas A and M vs Montana
+2025-11-19 05:54:04 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:04 | INFO     | 
+🎯 [82/205] Texas State vs Abilene Christian
+2025-11-19 05:54:04 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:04 | INFO     | 
+🎯 [83/205] Evansville vs Texas-Arlington
+2025-11-19 05:54:04 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:04 | INFO     | 
+🎯 [84/205] Cornell vs Army
+2025-11-19 05:54:05 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:05 | INFO     | 
+🎯 [85/205] Yale vs Rhode Island
+2025-11-19 05:54:05 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:05 | INFO     | 
+🎯 [86/205] Southern Methodist vs Arkansas-Pine Bluff
+2025-11-19 05:54:05 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:05 | INFO     | 
+🎯 [87/205] Winnipeg Jets vs Columbus Blue Jackets
+2025-11-19 05:54:06 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:54:06 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17525/1
+2025-11-19 05:54:06 | INFO     |   👆 First click triggered ad
+2025-11-19 05:54:10 | INFO     |   ▶️ Second click started player
+2025-11-19 05:54:11 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:54:11 | INFO     | 
+🎯 [88/205] Dallas Stars vs New York Islanders
+2025-11-19 05:54:11 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:54:11 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17524/1
+2025-11-19 05:54:12 | INFO     |   👆 First click triggered ad
+2025-11-19 05:54:16 | INFO     |   ▶️ Second click started player
+2025-11-19 05:54:17 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:54:17 | INFO     | 
+🎯 [89/205] Iowa Wild vs Texas Stars
+2025-11-19 05:54:17 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:17 | INFO     | 
+🎯 [90/205] Panama vs El Salvador
+2025-11-19 05:54:17 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:17 | INFO     | 
+🎯 [91/205] Haiti vs Nicaragua
+2025-11-19 05:54:18 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:18 | INFO     | 
+🎯 [92/205] Trinidad and Tobago vs Bermuda
+2025-11-19 05:54:18 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:18 | INFO     | 
+🎯 [93/205] Guatemala vs Suriname
+2025-11-19 05:54:18 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:18 | INFO     | 
+🎯 [94/205] Costa Rica vs Honduras
+2025-11-19 05:54:18 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:18 | INFO     | 
+🎯 [95/205] Jamaica vs Curacao
+2025-11-19 05:54:19 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:19 | INFO     | 
+🎯 [96/205] Embry-Riddle vs Northern Arizona
+2025-11-19 05:54:19 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:19 | INFO     | 
+🎯 [97/205] Gardner-Webb vs DePaul
+2025-11-19 05:54:19 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:19 | INFO     | 
+🎯 [98/205] Haskell vs Oral Roberts
+2025-11-19 05:54:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:20 | INFO     | 
+🎯 [99/205] Little Rock vs Murray State
+2025-11-19 05:54:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:20 | INFO     | 
+🎯 [100/205] Northern Illinois vs Northern Iowa
+2025-11-19 05:54:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:20 | INFO     | 
+🎯 [101/205] William Carey vs Southern Miss
+2025-11-19 05:54:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:20 | INFO     | 
+🎯 [102/205] Memphis (W) vs #13 Ole Miss (W)
+2025-11-19 05:54:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:20 | INFO     | 
+🎯 [103/205] Grand Canyon (W) vs SMU (W)
+2025-11-19 05:54:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:21 | INFO     | 
+🎯 [104/205] North Dakota (W) vs Eastern Kentucky (W)
+2025-11-19 05:54:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:21 | INFO     | 
+🎯 [105/205] WWE: NXT
+2025-11-19 05:54:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:21 | INFO     | 
+🎯 [106/205] Akira Santillan - Kaylan Bigun
+2025-11-19 05:54:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:21 | INFO     | 
+🎯 [107/205] Ena Koike - Hikaru Sato
+2025-11-19 05:54:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:21 | INFO     | 
+🎯 [108/205] Hayu Kinoshita - Himeno Sakatsume
+2025-11-19 05:54:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:21 | INFO     | 
+🎯 [109/205] Jana Kolodynska - Yeonwoo Ku
+2025-11-19 05:54:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:22 | INFO     | 
+🎯 [110/205] Maxim Zhukov - Rei Sakamoto
+2025-11-19 05:54:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:22 | INFO     | 
+🎯 [111/205] Sakura Hosogi - Kristiana Sidorova
+2025-11-19 05:54:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:22 | INFO     | 
+🎯 [112/205] Yuta Shimizu - Yusuke Kusuhara
+2025-11-19 05:54:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:22 | INFO     | 
+🎯 [113/205] San Martin vs Instituto de Cordoba
+2025-11-19 05:54:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:22 | INFO     | 
+🎯 [114/205] Brooklyn Nets vs Boston Celtics
+2025-11-19 05:54:23 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:54:23 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17530/1
+2025-11-19 05:54:23 | INFO     |   👆 First click triggered ad
+2025-11-19 05:54:27 | INFO     |   ▶️ Second click started player
+2025-11-19 05:54:28 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:54:28 | INFO     | 
+🎯 [115/205] Atlanta Hawks vs Detroit Pistons
+2025-11-19 05:54:28 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:54:28 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17531/1
+2025-11-19 05:54:28 | INFO     |   👆 First click triggered ad
+2025-11-19 05:54:32 | INFO     |   ▶️ Second click started player
+2025-11-19 05:54:33 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:54:33 | INFO     | 
+🎯 [116/205] Sioux Falls Skyforce vs Cleveland Charge
+2025-11-19 05:54:34 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:34 | INFO     | 
+🎯 [117/205] Georgia Tech vs Georgia Southern
+2025-11-19 05:54:34 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:34 | INFO     | 
+🎯 [118/205] Bethel vs Western Kentucky
+2025-11-19 05:54:34 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:34 | INFO     | 
+🎯 [119/205] Missouri (W) vs Southern Illinois (W)
+2025-11-19 05:54:34 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:34 | INFO     | 
+🎯 [120/205] Kansas State (W) vs Troy (W)
+2025-11-19 05:54:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:35 | INFO     | 
+🎯 [121/205] Missouri State (W) vs Georgia Southern (W)
+2025-11-19 05:54:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:35 | INFO     | 
+🎯 [122/205] New Zealand - West Indies
+2025-11-19 05:54:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:35 | INFO     | 
+🎯 [123/205] Hiromi Abe - Maddison Inglis
+2025-11-19 05:54:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:35 | INFO     | 
+🎯 [124/205] Fangran Tian - Monique Barry
+2025-11-19 05:54:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:35 | INFO     | 
+🎯 [125/205] A.Chandrasekar/R.Stalder - T.Kumasaka/T.L.Wu
+2025-11-19 05:54:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:36 | INFO     | 
+🎯 [126/205] Cruz Hewitt - Hayato Matsuoka
+2025-11-19 05:54:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:36 | INFO     | 
+🎯 [127/205] Tai Sach - Blake Ellis
+2025-11-19 05:54:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:36 | INFO     | 
+🎯 [128/205] Tahlia Kokkinis - Taylah Preston
+2025-11-19 05:54:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:36 | INFO     | 
+🎯 [129/205] Northern Illinois vs Western Michigan
+2025-11-19 05:54:36 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:54:36 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17515/1
+2025-11-19 05:54:36 | INFO     |   👆 First click triggered ad
+2025-11-19 05:54:40 | INFO     |   ▶️ Second click started player
+2025-11-19 05:54:42 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:54:42 | INFO     | 
+🎯 [130/205] Bowling Green vs Akron
+2025-11-19 05:54:42 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:54:42 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17513/1
+2025-11-19 05:54:42 | INFO     |   👆 First click triggered ad
+2025-11-19 05:54:46 | INFO     |   ▶️ Second click started player
+2025-11-19 05:54:47 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:54:47 | INFO     | 
+🎯 [131/205] Orlando Magic vs Golden State Warriors
+2025-11-19 05:54:47 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:54:47 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17529/1
+2025-11-19 05:54:47 | INFO     |   👆 First click triggered ad
+2025-11-19 05:54:51 | INFO     |   ▶️ Second click started player
+2025-11-19 05:54:53 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:54:53 | INFO     | 
+🎯 [132/205] Kent State vs Eastern Kentucky
+2025-11-19 05:54:53 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:53 | INFO     | 
+🎯 [133/205] South Carolina vs Radford
+2025-11-19 05:54:53 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:53 | INFO     | 
+🎯 [134/205] Lehigh vs St Francis-Pennsylvania
+2025-11-19 05:54:53 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:53 | INFO     | 
+🎯 [135/205] Boston College vs Hampton
+2025-11-19 05:54:53 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:53 | INFO     | 
+🎯 [136/205] North Carolina vs Navy
+2025-11-19 05:54:54 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:54 | INFO     | 
+🎯 [137/205] Brown vs Holy Cross
+2025-11-19 05:54:54 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:54 | INFO     | 
+🎯 [138/205] Columbia vs Boston University
+2025-11-19 05:54:54 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:54 | INFO     | 
+🎯 [139/205] Providence vs New Hampshire
+2025-11-19 05:54:55 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:55 | INFO     | 
+🎯 [140/205] Xavier vs Old Dominion
+2025-11-19 05:54:55 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:55 | INFO     | 
+🎯 [141/205] Iona vs Princeton
+2025-11-19 05:54:55 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:55 | INFO     | 
+🎯 [142/205] Florida International vs Fort Lauderdale
+2025-11-19 05:54:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:56 | INFO     | 
+🎯 [143/205] Detroit vs Eastern Michigan
+2025-11-19 05:54:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:56 | INFO     | 
+🎯 [144/205] James Madison vs Towson
+2025-11-19 05:54:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:56 | INFO     | 
+🎯 [145/205] George Mason vs Jacksonville
+2025-11-19 05:54:56 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:54:56 | INFO     | 
+🎯 [146/205] Tampa Bay Lightning vs New Jersey Devils
+2025-11-19 05:54:57 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:54:57 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17523/1
+2025-11-19 05:54:57 | INFO     |   👆 First click triggered ad
+2025-11-19 05:55:01 | INFO     |   ▶️ Second click started player
+2025-11-19 05:55:02 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:55:02 | INFO     | 
+🎯 [147/205] Toronto Maple Leafs vs St. Louis Blues
+2025-11-19 05:55:02 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:55:02 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17521/1
+2025-11-19 05:55:03 | INFO     |   👆 First click triggered ad
+2025-11-19 05:55:07 | INFO     |   ▶️ Second click started player
+2025-11-19 05:55:08 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:55:08 | INFO     | 
+🎯 [148/205] Kitchener Rangers vs Guelph Storm
+2025-11-19 05:55:08 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:08 | INFO     | 
+🎯 [149/205] Niagara vs RIT
+2025-11-19 05:55:08 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:08 | INFO     | 
+🎯 [150/205] Stonehill vs Alaska Anchorage
+2025-11-19 05:55:08 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:08 | INFO     | 
+🎯 [151/205] Detroit Red Wings vs Seattle Kraken
+2025-11-19 05:55:09 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:55:09 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17522/1
+2025-11-19 05:55:09 | INFO     |   👆 First click triggered ad
+2025-11-19 05:55:13 | INFO     |   ▶️ Second click started player
+2025-11-19 05:55:14 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:55:14 | INFO     | 
+🎯 [152/205] USA vs Uruguay
+2025-11-19 05:55:14 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:55:14 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17593/1
+2025-11-19 05:55:14 | INFO     |   👆 First click triggered ad
+2025-11-19 05:55:18 | INFO     |   ▶️ Second click started player
+2025-11-19 05:55:19 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:55:19 | INFO     | 
+🎯 [153/205] The Strongest vs Guabira
+2025-11-19 05:55:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:20 | INFO     | 
+🎯 [154/205] UT Martin vs Florida State
+2025-11-19 05:55:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:20 | INFO     | 
+🎯 [155/205] Cheyney vs Delaware State
+2025-11-19 05:55:20 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:20 | INFO     | 
+🎯 [156/205] IU Indianapolis vs Charleston Southern
+2025-11-19 05:55:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:21 | INFO     | 
+🎯 [157/205] Maine-Augusta vs Dartmouth
+2025-11-19 05:55:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:21 | INFO     | 
+🎯 [158/205] Maryland Eastern Shore vs Longwood
+2025-11-19 05:55:21 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:21 | INFO     | 
+🎯 [159/205] New Haven vs Seton Hall
+2025-11-19 05:55:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:22 | INFO     | 
+🎯 [160/205] North Carolina A&T vs Morgan State
+2025-11-19 05:55:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:22 | INFO     | 
+🎯 [161/205] Saint Peter's vs Delaware
+2025-11-19 05:55:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:22 | INFO     | 
+🎯 [162/205] East Carolina vs UNC Wilmington
+2025-11-19 05:55:22 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:22 | INFO     | 
+🎯 [163/205] NJIT vs Drexel
+2025-11-19 05:55:23 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:23 | INFO     | 
+🎯 [164/205] St. Elizabeth vs Fairleigh Dickinson
+2025-11-19 05:55:23 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:23 | INFO     | 
+🎯 [165/205] #20 Kentucky (W) vs Purdue (W)
+2025-11-19 05:55:23 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:23 | INFO     | 
+🎯 [166/205] #6 Michigan (W) vs Binghamton (W)
+2025-11-19 05:55:23 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:23 | INFO     | 
+🎯 [167/205] Georgetown (W) vs Sacred Heart (W)
+2025-11-19 05:55:24 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:24 | INFO     | 
+🎯 [168/205] Loyola Chicago (W) vs Illinois State (W)
+2025-11-19 05:55:24 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:24 | INFO     | 
+🎯 [169/205] Racing de Chivilcoy vs Gimnasia
+2025-11-19 05:55:24 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:24 | INFO     | 
+🎯 [170/205] Ohio Bobcats - Massachusetts Minutemen
+2025-11-19 05:55:24 | INFO     |   ↳ 1 embed URLs
+2025-11-19 05:55:24 | INFO     |      • (1/1) https://embedsports.top/embed/golf/17514/1
+2025-11-19 05:55:24 | INFO     |   👆 First click triggered ad
+2025-11-19 05:55:28 | INFO     |   ▶️ Second click started player
+2025-11-19 05:55:30 | INFO     |      ❌ No working streams (1 embeds)
+2025-11-19 05:55:30 | INFO     | 
+🎯 [171/205] Cooper White - Marvin Buytaert
+2025-11-19 05:55:30 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:30 | INFO     | 
+🎯 [172/205] Francisco Salmain - Tiago Pires
+2025-11-19 05:55:30 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:30 | INFO     | 
+🎯 [173/205] Jean Karim Olivier de Sardan - Rahul Sachdev
+2025-11-19 05:55:30 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:30 | INFO     | 
+🎯 [174/205] Oliver Welch - Marcus Nield
+2025-11-19 05:55:30 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:30 | INFO     | 
+🎯 [175/205] Oliver Wilcox - Ashton McLeod
+2025-11-19 05:55:30 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:30 | INFO     | 
+🎯 [176/205] Lindenwood - Little Rock
+2025-11-19 05:55:31 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:31 | INFO     | 
+🎯 [177/205] United States - Uruguay
+2025-11-19 05:55:31 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:31 | INFO     | 
+🎯 [178/205] Botafogo RJ vs Sport Recife
+2025-11-19 05:55:31 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:31 | INFO     | 
+🎯 [179/205] Fortaleza vs Deportes Tolima
+2025-11-19 05:55:31 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:31 | INFO     | 
+🎯 [180/205] Dominican Republic vs Martinique
+2025-11-19 05:55:32 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:32 | INFO     | 
+🎯 [181/205] #17 Michigan State vs #12 Kentucky
+2025-11-19 05:55:32 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:32 | INFO     | 
+🎯 [182/205] American University vs Rutgers
+2025-11-19 05:55:32 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:32 | INFO     | 
+🎯 [183/205] Paul Smith'S vs UAlbany
+2025-11-19 05:55:32 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:32 | INFO     | 
+🎯 [184/205] Vermont vs Buffalo
+2025-11-19 05:55:33 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:33 | INFO     | 
+🎯 [185/205] La Salle (W) vs West Chester (W)
+2025-11-19 05:55:33 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:33 | INFO     | 
+🎯 [186/205] Botafogo vs Brasilia FC
+2025-11-19 05:55:33 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:33 | INFO     | 
+🎯 [187/205] Antigua and Barbuda vs Guyana
+2025-11-19 05:55:33 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:33 | INFO     | 
+🎯 [188/205] Pittsburgh (W) vs Le Moyne (W)
+2025-11-19 05:55:33 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:33 | INFO     | 
+🎯 [189/205] Cornell (W) vs Colgate (W)
+2025-11-19 05:55:34 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:34 | INFO     | 
+🎯 [190/205] Marshall (W) vs Salem University (W)
+2025-11-19 05:55:34 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:34 | INFO     | 
+🎯 [191/205] Massachusetts (W) vs UMass Lowell (W)
+2025-11-19 05:55:34 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:34 | INFO     | 
+🎯 [192/205] Pennsylvania (W) vs Norfolk State (W)
+2025-11-19 05:55:34 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:34 | INFO     | 
+🎯 [193/205] Richmond (W) vs Temple (W)
+2025-11-19 05:55:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:35 | INFO     | 
+🎯 [194/205] Robert Morris (W) vs Duquesne (W)
+2025-11-19 05:55:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:35 | INFO     | 
+🎯 [195/205] Southern Miss (W) vs SE Louisiana (W)
+2025-11-19 05:55:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:35 | INFO     | 
+🎯 [196/205] Army - Lehigh
+2025-11-19 05:55:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:35 | INFO     | 
+🎯 [197/205] Bucknell - Navy
+2025-11-19 05:55:35 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:35 | INFO     | 
+🎯 [198/205] Niagara - Canisius
+2025-11-19 05:55:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:36 | INFO     | 
+🎯 [199/205] Rider - Siena
+2025-11-19 05:55:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:36 | INFO     | 
+🎯 [200/205] Unifacisa vs Bauru
+2025-11-19 05:55:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:36 | INFO     | 
+🎯 [201/205] Nacional Potosi vs GV San Jose
+2025-11-19 05:55:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:36 | INFO     | 
+🎯 [202/205] WTA Colina vs Center Court Vedder - Sherif
+2025-11-19 05:55:36 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:36 | INFO     | 
+🎯 [203/205] Morgan State (W) vs Johns Hopkins University (W)
+2025-11-19 05:55:37 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:37 | INFO     | 
+🎯 [204/205] North Carolina Central (W) vs Charleston (W)
+2025-11-19 05:55:37 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:37 | INFO     | 
+🎯 [205/205] Yale (W) vs Quinnipiac (W)
+2025-11-19 05:55:37 | INFO     |      ❌ No working streams (0 embeds)
+2025-11-19 05:55:37 | INFO     | 
+🎉 11 working streams written to playlist.
+2025-11-19 05:55:37 | INFO     | 
+📊 FINAL SUMMARY ------------------------------
+2025-11-19 05:55:37 | INFO     | 🕓 Duration: 172.59 sec
+2025-11-19 05:55:37 | INFO     | 📺 Matches:  205
+2025-11-19 05:55:37 | INFO     | 🔗 Embeds:   33
+2025-11-19 05:55:37 | INFO     | ✅ Streams:  11
+2025-11-19 05:55:37 | INFO     | ❌ Failures: 0
+2025-11-19 05:55:37 | INFO     | ------------------------------------------------
