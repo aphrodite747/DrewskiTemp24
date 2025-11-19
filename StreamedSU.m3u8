@@ -1,31 +1,31 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Sydney Thunder W vs Perth W" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Cricket.png" group-title="StreamedSU - Cricket",Sydney Thunder W vs Perth W
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/lBmVyvCLVoWxoRaMWyUtAvbopQhkyHWH/alpha/stream/sydney-thunder-w-vs-perth-w/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Stallion W vs Lion City W" tvg-logo="https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/RvN0XSF.png" group-title="StreamedSU - Football",Stallion W vs Lion City W
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/IYFqQGJkpXhudJbCtvQTwrSzikPBZLCh/alpha/stream/stallion-w-vs-lion-city-w/1/playlist.m3u8
+https://lb9.strmd.top/secure/iXnZXJeRXSiPDdaBYwhoFDZzBtIdzjWi/alpha/stream/stallion-w-vs-lion-city-w/1/playlist.m3u8
 #EXTINF:-1 tvg-id="AUS.Rules.Football.Dummy.us" tvg-name="2025 AFL Draft: Day 1" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/DrewLiveSports.png" group-title="StreamedSU - Afl",2025 AFL Draft: Day 1
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/FrYwsjEdmjjTaqBkONVfooSPtBUmNJUW/alpha/stream/2025-afl-draft-day-1/1/playlist.m3u8
+https://lb9.strmd.top/secure/zIVJyKaNfsyzGtGJMYXQevQrAtnnSxAK/alpha/stream/2025-afl-draft-day-1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Sports.Dummy.us" tvg-name="ARIA Awards" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/DrewLiveSports.png" group-title="StreamedSU - Other",ARIA Awards
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/aweCwVLzKpWGycOwOVJBWJVMhLDQRExm/alpha/stream/aria-awards/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Portland Trail Blazers vs Phoenix Suns" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpm7UoZcNxBaIuPSm0gDMELpgEKTPii5gy8IvNE2mtMHbGiIQA.webp" group-title="StreamedSU - Basketball",Portland Trail Blazers vs Phoenix Suns
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/BSbOEpmfRcpsuJhRmMHMhuuVGyWdikHH/alpha/stream/portland-trail-blazers-vs-phoenix-suns/1/playlist.m3u8
+https://lb2.strmd.top/secure/gtidRvlHCdARjNJYsflvNBBDDgIMRDap/alpha/stream/aria-awards/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Ireland tour of Bangladesh: Bangladesh vs Ireland" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzuCkMUFYwBjWfYeYNYLSlK4AQ2EOAFNbgBOBWke-MWiwagEZCmA6tepcpWoJIDRbXiZZdKpTyZ2TdIqGNg3NCAAmIDpeAXE9a+XtXEhkNnsRerTiAhk3liCE1p5m-sxCnm4EMMB4enRgLAp+kkK08eRgScB+kUA.webp" group-title="StreamedSU - Cricket",Ireland tour of Bangladesh: Bangladesh vs Ireland
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/ukKSmMuzomrCIaWeSsgnMPZdyUbKVAik/charlie/stream/bangladesh-vs-ireland-1629467924/1/playlist.m3u8
+https://lb2.strmd.top/secure/KhsgGsqegswUVGDMHocKvGfAPjnOZMuJ/charlie/stream/bangladesh-vs-ireland-1629467924/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Ecuador vs New Zealand" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkuhAoQ3MOBjAADCH3cQfEBFyr9ZtYmWFtTPii5gy8IvNGOmtMM7GiIQA.webp" group-title="StreamedSU - Football",Ecuador vs New Zealand
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/skgckRAzNeaOYrLENDsZsFBWjLXXnLUz/alpha/stream/new-zealand-vs-west-indies/1/playlist.m3u8
+https://lb6.strmd.top/secure/AKADakdeCGTghkCvEZMQXAZBYaBdCSUh/alpha/stream/new-zealand-vs-west-indies/1/playlist.m3u8
