@@ -238,7 +238,7 @@ async def generate_playlist():
     content = ["#EXTM3U"]
     success = 0
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True, channel="chrome-beta")
+        browser = await p.chromium.launch(headless=True, channel="chrome")
         ctx = await browser.new_context(extra_http_headers=CUSTOM_HEADERS)
         sem = asyncio.Semaphore(2)
 
