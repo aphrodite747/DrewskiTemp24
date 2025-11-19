@@ -1,20 +1,13 @@
 import asyncio
 import re
 import requests
-import logging
 from datetime import datetime
 from playwright.async_api import async_playwright
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s | %(levelname)-8s | %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-console.setFormatter(logging.Formatter("%(asctime)s | %(levelname)-8s | %(message)s", "%H:%M:%S"))
-logging.getLogger("").addHandler(console)
-log = logging.getLogger("scraper")
+total_matches = 0
+total_embeds = 0
+total_streams = 0
+total_failures = 0
 
 CUSTOM_HEADERS = {
     "Origin": "https://embedsports.top",
@@ -52,35 +45,26 @@ TV_IDS = {
     "other": "Sports.Dummy.us"
 }
 
-total_matches = 0
-total_embeds = 0
-total_streams = 0
-total_failures = 0
-
-
 def strip_non_ascii(text: str) -> str:
-    """Remove emojis and non-ASCII characters."""
     if not text:
         return ""
     return re.sub(r"[^\x00-\x7F]+", "", text)
-
 
 def get_all_matches():
     endpoints = ["live"]
     all_matches = []
     for ep in endpoints:
         try:
-            log.info(f"📡 Fetching {ep} matches...")
+            print(f"📡 Fetching {ep} matches...")
             res = requests.get(f"https://streami.su/api/matches/{ep}", timeout=10)
             res.raise_for_status()
             data = res.json()
-            log.info(f"✅ {ep}: {len(data)} matches")
+            print(f"✅ {ep}: {len(data)} matches")
             all_matches.extend(data)
         except Exception as e:
-            log.warning(f"⚠️ Failed fetching {ep}: {e}")
-    log.info(f"🎯 Total matches collected: {len(all_matches)}")
+            print(f"⚠️ Failed fetching {ep}: {e}")
+    print(f"🎯 Total matches collected: {len(all_matches)}")
     return all_matches
-
 
 def get_embed_urls_from_api(source):
     try:
@@ -94,7 +78,6 @@ def get_embed_urls_from_api(source):
     except Exception:
         return []
 
-
 async def extract_m3u8(page, embed_url):
     global total_failures
     found = None
@@ -105,11 +88,12 @@ async def extract_m3u8(page, embed_url):
                 if "prd.jwpltx.com" in request.url:
                     return
                 found = request.url
-                log.info(f"  ⚡ Stream: {found}")
+                print(f"  ⚡ Stream: {found}")
 
         page.on("request", on_request)
         await page.goto(embed_url, wait_until="domcontentloaded", timeout=5000)
         await page.bring_to_front()
+
         selectors = [
             "div.jw-icon-display[role='button']",
             ".jw-icon-playback",
@@ -131,7 +115,7 @@ async def extract_m3u8(page, embed_url):
 
         try:
             await page.mouse.click(200, 200)
-            log.info("  👆 First click triggered ad")
+            print("  👆 First click triggered ad")
             pages_before = page.context.pages
             new_tab = None
             for _ in range(12):
@@ -144,15 +128,15 @@ async def extract_m3u8(page, embed_url):
                 try:
                     await asyncio.sleep(0.5)
                     url = (new_tab.url or "").lower()
-                    log.info(f"  🚫 Forcing close on ad tab: {url if url else '(blank/new)'}")
+                    print(f"  🚫 Forcing close on ad tab: {url if url else '(blank/new)'}")
                     await new_tab.close()
                 except Exception:
-                    log.info("  ⚠️ Ad tab close failed")
+                    print("  ⚠️ Ad tab close failed")
             await asyncio.sleep(1)
             await page.mouse.click(200, 200)
-            log.info("  ▶️ Second click started player")
+            print("  ▶️ Second click started player")
         except Exception as e:
-            log.warning(f"⚠️ Momentum click sequence failed: {e}")
+            print(f"⚠️ Momentum click sequence failed: {e}")
 
         for _ in range(4):
             if found:
@@ -164,14 +148,13 @@ async def extract_m3u8(page, embed_url):
             matches = re.findall(r'https?://[^\s\"\'<>]+\.m3u8(?:\?[^\"\'<>]*)?', html)
             if matches:
                 found = matches[0]
-                log.info(f"  🕵️ Fallback: {found}")
+                print(f"  🕵️ Fallback: {found}")
 
         return found
     except Exception as e:
         total_failures += 1
-        log.warning(f"⚠️ {embed_url} failed: {e}")
+        print(f"⚠️ {embed_url} failed: {e}")
         return None
-
 
 def validate_logo(url, category):
     cat = (category or "other").lower().replace("-", " ").strip()
@@ -184,7 +167,6 @@ def validate_logo(url, category):
         except Exception:
             pass
     return fallback
-
 
 def build_logo_url(match):
     cat = (match.get("category") or "other").strip()
@@ -199,11 +181,10 @@ def build_logo_url(match):
         return validate_logo(url, cat), cat
     return validate_logo(None, cat), cat
 
-
 async def process_match(index, match, total, ctx):
     global total_embeds, total_streams
     title = strip_non_ascii(match.get("title", "Unknown Match"))
-    log.info(f"\n🎯 [{index}/{total}] {title}")
+    print(f"\n🎯 [{index}/{total}] {title}")
     sources = match.get("sources", [])
     match_embeds = 0
     page = await ctx.new_page()
@@ -213,26 +194,25 @@ async def process_match(index, match, total, ctx):
         match_embeds += len(embed_urls)
         if not embed_urls:
             continue
-        log.info(f"  ↳ {len(embed_urls)} embed URLs")
+        print(f"  ↳ {len(embed_urls)} embed URLs")
         for i, embed in enumerate(embed_urls, start=1):
-            log.info(f"     • ({i}/{len(embed_urls)}) {embed}")
+            print(f"     • ({i}/{len(embed_urls)}) {embed}")
             m3u8 = await extract_m3u8(page, embed)
             if m3u8:
                 total_streams += 1
-                log.info(f"     ✅ Stream OK for {title}")
+                print(f"     ✅ Stream OK for {title}")
                 await page.close()
                 return match, m3u8
     await page.close()
-    log.info(f"     ❌ No working streams ({match_embeds} embeds)")
+    print(f"     ❌ No working streams ({match_embeds} embeds)")
     return match, None
-
 
 async def generate_playlist():
     global total_matches
     matches = get_all_matches()
     total_matches = len(matches)
     if not matches:
-        log.warning("❌ No matches found.")
+        print("❌ No matches found.")
         return "#EXTM3U\n"
 
     content = ["#EXTM3U"]
@@ -269,22 +249,21 @@ async def generate_playlist():
 
         await browser.close()
 
-    log.info(f"\n🎉 {success} working streams written to playlist.")
+    print(f"\n🎉 {success} working streams written to playlist.")
     return "\n".join(content)
-
 
 if __name__ == "__main__":
     start = datetime.now()
-    log.info("🚀 Starting StreamedSU scrape run (LIVE only)...")
+    print("🚀 Starting StreamedSU scrape run (LIVE only)...")
     playlist = asyncio.run(generate_playlist())
     with open("StreamedSU.m3u8", "w", encoding="utf-8") as f:
         f.write(playlist)
     end = datetime.now()
     duration = (end - start).total_seconds()
-    log.info("\n📊 FINAL SUMMARY ------------------------------")
-    log.info(f"🕓 Duration: {duration:.2f} sec")
-    log.info(f"📺 Matches:  {total_matches}")
-    log.info(f"🔗 Embeds:   {total_embeds}")
-    log.info(f"✅ Streams:  {total_streams}")
-    log.info(f"❌ Failures: {total_failures}")
-    log.info("------------------------------------------------")
+    print("\n📊 FINAL SUMMARY ------------------------------")
+    print(f"🕓 Duration: {duration:.2f} sec")
+    print(f"📺 Matches:  {total_matches}")
+    print(f"🔗 Embeds:   {total_embeds}")
+    print(f"✅ Streams:  {total_streams}")
+    print(f"❌ Failures: {total_failures}")
+    print("------------------------------------------------")
