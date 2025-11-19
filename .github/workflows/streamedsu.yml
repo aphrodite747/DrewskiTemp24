@@ -31,7 +31,7 @@ jobs:
           playwright install-deps
 
       - name: 🎯 Run StreamedSU scraper
-        run: python streamed_su.py
+        run: python streamedsu.py
 
       - name: 💾 Commit & Safely Push if Playlist Changed
         env:
