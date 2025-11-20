@@ -42,7 +42,9 @@ epg_sources = [
     "https://epgshare01.online/epgshare01/epg_ripper_KE1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_NG1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_JM1.xml.gz"
+    "https://epgshare01.online/epgshare01/epg_ripper_JM1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
 ]
 
 playlist_url = "http://drewlive24.duckdns.org:8081/DrewLive/MergedPlaylist.m3u8"
