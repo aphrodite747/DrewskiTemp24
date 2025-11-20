@@ -48,12 +48,12 @@ https://gg.poocloud.in/f1/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/bundesliga_m05/index.m3u8
+https://gg.poocloud.in/ligue1_nic/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/2797b31691157ceb93cca2e5ed9b6c27-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Valencia CF vs. Levante UD [03:00 PM ET / 01:00 PM MT / 20:00 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/ll_val/index.m3u8
+https://gg.poocloud.in/ligue1_nic/index.m3u8
 #EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/43a28bbec6b78d817ea1f73e70bd7722-thumbnail.jpg" group-title="PPVLand - Racing Action",Las Vegas Grand Prix - FP3 [07:30 PM ET / 05:30 PM MT / 00:30 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -73,7 +73,7 @@ https://gg.poocloud.in/ashes/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/ashes/index.m3u8
+https://gg.poocloud.in/f1/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/50fdb65f0d9c2e7c3c8f85ea9c195b04-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Burnley vs. Chelsea [07:30 AM ET / 05:30 AM MT / 12:30 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -83,7 +83,7 @@ https://gg.poocloud.in/epl_bur/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/epl_bur/index.m3u8
+https://gg.poocloud.in/ll_ala/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/80237a844106498ab1eb19e067f38212-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Cagliari vs. Genoa [09:00 AM ET / 07:00 AM MT / 14:00 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -103,12 +103,12 @@ https://gg.poocloud.in/bundesliga_hdh/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/bundesliga_hdh/index.m3u8
+https://gg.poocloud.in/bundesliga_mun/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/3bb69ec68d39a794abccf4c66403c316-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Dortmund vs. Stuttgart [09:30 AM ET / 07:30 AM MT / 14:30 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/bundesliga_dor/index.m3u8
+https://gg.poocloud.in/bundesliga_mun/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/f87060ed6db1e11079cc6060ff2df209-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Augsburg vs. Hamburg [09:30 AM ET / 07:30 AM MT / 14:30 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -123,7 +123,7 @@ https://gg.poocloud.in/bundesliga_fca/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/bundesliga_wob/index.m3u8
+https://gg.poocloud.in/epl_bou/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/9319eda0a0bc201457e228c35435a68c-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Brighton and Hove Albion vs. Brentford [10:00 AM ET / 08:00 AM MT / 15:00 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -138,7 +138,7 @@ https://gg.poocloud.in/epl_bha/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/epl_liv/index.m3u8
+https://gg.poocloud.in/epl_ful/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/3e8b0b61251cfa3e464baaad7dfdbd21-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Wolverhampton Wanderers vs. Crystal Palace [10:00 AM ET / 08:00 AM MT / 15:00 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -153,7 +153,7 @@ https://gg.poocloud.in/ll_bar/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/ll_bar/index.m3u8
+https://gg.poocloud.in/ligue1_len/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/30aa4e5735a03820f9bccf4760aef42b-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Fiorentina vs. Juventus [12:00 PM ET / 10:00 AM MT / 17:00 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -173,7 +173,7 @@ https://gg.poocloud.in/ll_osa/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/ll_osa/index.m3u8
+https://gg.poocloud.in/bundesliga_koe/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/9fe9113fa1881b3ee5be45adbeac4ce9-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Rennes vs. AS Monaco [01:00 PM ET / 11:00 AM MT / 18:00 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -213,7 +213,7 @@ https://gg.poocloud.in/f1/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/seriea_ver/index.m3u8
+https://gg.poocloud.in/f1/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/e9cb7d85cd57e4ef7c9a3e07e2a2165e-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Real Oviedo vs. Rayo Vallecano [08:00 AM ET / 06:00 AM MT / 13:00 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -308,7 +308,7 @@ https://gg.poocloud.in/seriea_tor/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/seriea_sas/index.m3u8
+https://gg.poocloud.in/seriea_tor/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/a0375164be5a5ed1b5378901d95044d5-thumbnail.jpg" group-title="PPVLand - Global Football Streams",Manchester United vs. Everton [03:00 PM ET / 01:00 PM MT / 20:00 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -318,7 +318,7 @@ https://gg.poocloud.in/epl_mun/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/ll_esp/index.m3u8
+https://gg.poocloud.in/epl_mun/index.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/e4f7494ce49163f4a7d4b4db2cc21b53-thumbnail.jpg" group-title="PPVLand - Random Events",1st Test, Day 5: Australia vs. England [09:20 PM ET / 07:20 PM MT / 02:20 UK]
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
@@ -328,13 +328,13 @@ https://gg.poocloud.in/ashes/index.m3u8
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/southpark/index.m3u8
+https://gg.poocloud.in/ashes/index.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://ppv.to/assets/thumb/213d77252211e1926309f43b38263a4f-thumbnail.jpg" group-title="PPVLand - Live Channels 24/7",24/7 COWS
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.poocloud.in/cows/index.m3u8
-#EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://thumbs.poocloud.in/familyguy/preview.jpg" group-title="PPVLand - Live Channels 24/7",24/7 Family‌​‌​‌‌​​‌​‌‌​‌‌‌‌​​​​‌​​​‌​​​​‌‌ Guy
+https://gg.poocloud.in/southpark/index.m3u8
+#EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://thumbs.poocloud.in/familyguy/preview.jpg" group-title="PPVLand - Live Channels 24/7",24/7 Family​‌​​​​​​‌‌‌​‌‌​​‌​​​‌‌‌‌​​‌​​‌​​ Guy
 #EXTVLCOPT:http-origin=https://ppv.to
 #EXTVLCOPT:http-referrer=https://ppv.to/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
