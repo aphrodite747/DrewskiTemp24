@@ -3,49 +3,39 @@
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/otRGHElTbCRjeMVpiDjWGrpVUreWAnLt/alpha/stream/brisbane-bullets-vs-south-east-melbourne/1/playlist.m3u8
+https://lb7.strmd.top/secure/oWvGleOSUEgFcCYxtgRcaqxHGlSERYXk/alpha/stream/brisbane-bullets-vs-south-east-melbourne/1/playlist.m3u8
 #EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="Australian Baseball League: Adelaide Giants vs Perth Heat" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/DrewLiveSports.png" group-title="StreamedSU - Baseball",Australian Baseball League: Adelaide Giants vs Perth Heat
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/cMMjqbKqfuilINayLLXgNRIBKUBBQamj/charlie/stream/adelaide-giants-vs-perth-heat-1629470613/1/playlist.m3u8
+https://lb8.strmd.top/secure/IUeqqgUGkTAXjyMSkrdzEmsPGNGWfOdb/charlie/stream/adelaide-giants-vs-perth-heat-1629470613/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Sports.Dummy.us" tvg-name="Asian Tour: PIF Saudi International, Second Round" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Golf.png" group-title="StreamedSU - Golf",Asian Tour: PIF Saudi International, Second Round
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/rInwRXrwXWVXpXSpltJHxccShaPgcorX/charlie/stream/pif-saudi-international-second-round-1629470614/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Women's Big Bash League: Sydney Sixers vs Melbourne Stars" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Cricket.png" group-title="StreamedSU - Cricket",Women's Big Bash League: Sydney Sixers vs Melbourne Stars
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/FkDUlQZqOcRKPQrzJsPYTriWiLohXyxe/charlie/stream/sydney-sixers-vs-melbourne-stars-1629467928/1/playlist.m3u8
+https://lb8.strmd.top/secure/njTTQaoIkQWZCWjnDlpttotEcDQyVWUB/charlie/stream/pif-saudi-international-second-round-1629470614/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Tennis.Dummy.us" tvg-name="Spain vs Czech Republic" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Tennis-2.png" group-title="StreamedSU - Tennis",Spain vs Czech Republic
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/OdSBlgNplOoWXDBiDKPdMPiyxmxnLqRv/alpha/stream/spain-vs-czech-republic/1/playlist.m3u8
+https://lb1.strmd.top/secure/FfqUPnmolIwJKgksPuOYyJAtwIFeXbZg/alpha/stream/spain-vs-czech-republic/1/playlist.m3u8
+#EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Women's Big Bash League: Sydney Sixers vs Melbourne Stars" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Cricket.png" group-title="StreamedSU - Cricket",Women's Big Bash League: Sydney Sixers vs Melbourne Stars
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/zYaKonaCpEaiPocAjHRDYrTinIynzCtJ/charlie/stream/sydney-sixers-vs-melbourne-stars-1629467928/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Sports.Dummy.us" tvg-name="PIF Saudi International - Rd 2" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Golf.png" group-title="StreamedSU - Golf",PIF Saudi International - Rd 2
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/ROGMnLUcYSsliEcIDeViIIkoAlPaCuTM/alpha/stream/pif-saudi-international-rd-2/1/playlist.m3u8
+https://lb8.strmd.top/secure/aryrhVJXvLWjhJaqwTtgkfQohTlZyfEg/alpha/stream/pif-saudi-international-rd-2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Sydney Sixers W vs Melbourne Stars W" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Cricket.png" group-title="StreamedSU - Cricket",Sydney Sixers W vs Melbourne Stars W
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/ADpAlAIgqFbxpRtmpQDEnDbpDzegQLmt/alpha/stream/sydney-sixers-w-vs-melbourne-stars-w/1/playlist.m3u8
+https://lb8.strmd.top/secure/VJDAVoOooJPRDmPmjyQCSGLikItWOovA/alpha/stream/sydney-sixers-w-vs-melbourne-stars-w/1/playlist.m3u8
 #EXTINF:-1 tvg-id="AUS.Rules.Football.Dummy.us" tvg-name="2025 AFL Draft: Day 1" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/DrewLiveSports.png" group-title="StreamedSU - Afl",2025 AFL Draft: Day 1
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/wBIvgcUDgeEDpMyIhOVGhDBdbiiPWuiW/alpha/stream/2025-afl-draft-day-1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="East Bengal W vs Wuhan Jiangda W" tvg-logo="https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/RvN0XSF.png" group-title="StreamedSU - Football",East Bengal W vs Wuhan Jiangda W
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/qHSWnzwEfTetMgdzOaiVsyqrDFvRLRry/alpha/stream/east-bengal-w-vs-wuhan-jiangda-w/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Southern Hoiho W vs Mainland Pouakai W" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball5.png" group-title="StreamedSU - Basketball",Southern Hoiho W vs Mainland Pouakai W
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/rLWhPRvrNNeCAnFJpYvGyaoPxvaGeLAV/alpha/stream/southern-hoiho-w-vs-mainland-pouakai-w/1/playlist.m3u8
+https://lb7.strmd.top/secure/vuEUovCFVjZIJTTbVZgrdBHqoQTBUlEH/alpha/stream/2025-afl-draft-day-1/1/playlist.m3u8
