@@ -3,94 +3,29 @@
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/sapIPcWCGsDsEMghRtZqnWnkcUkfGYRq/alpha/stream/al-ittihad-vs-al-riyadh/1/playlist.m3u8
-#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="UFC Fight Night Pre-Show Presented by No. 12 Irish Whiskey: Tsarukyan vs Hooker" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" group-title="StreamedSU - Fight",UFC Fight Night Pre-Show Presented by No. 12 Irish Whiskey: Tsarukyan vs Hooker
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/yaiuGTclPBEXEQuwaYXLMvWVcPpMDZWw/alpha/stream/ufc-fight-night-pre-show-presented-by-no-12-irish-whiskey-tsarukyan-vs-hooker/1/playlist.m3u8
-#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="UFC Qatar: Ceremonial Weigh-In" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" group-title="StreamedSU - Fight",UFC Qatar: Ceremonial Weigh-In
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/KCEZakjAluVptsDrNupgfDcoaVKGwKfc/alpha/stream/ufc-qatar-ceremonial-weigh-in/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Tennis.Dummy.us" tvg-name="Italy vs Belgium" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Tennis-2.png" group-title="StreamedSU - Tennis",Italy vs Belgium
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/HwiWZONwKbTAeefvoUNQpugRecZLWTEo/alpha/stream/italy-vs-belgium/1/playlist.m3u8
+https://lb8.strmd.top/secure/RlckDVZXKlNqztXTLltvgNBdtgjFanAM/alpha/stream/al-ittihad-vs-al-riyadh/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Portugal U17 vs Switzerland U17" tvg-logo="https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/RvN0XSF.png" group-title="StreamedSU - Football",Portugal U17 vs Switzerland U17
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/MfnmEapeGFJqhBtAwaWgLaaKcFZbkMKO/alpha/stream/portugal-u17-vs-switzerland-u17/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Italy U17 vs Burkina Faso U17" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkuhAATWCBRhu2sEhDcQfEIhibzIAyBK4CFJnxRcwZeEXminTWmBdjREEA.webp" group-title="StreamedSU - Football",Italy U17 vs Burkina Faso U17
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/ZEPNUldBzwCBYAmDAOpvSvmgkqwYUSLO/alpha/stream/italy-u17-vs-burkina-faso-u17/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Pakistan A vs Sri Lanka A" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Cricket.png" group-title="StreamedSU - Cricket",Pakistan A vs Sri Lanka A
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/xICWJrkrmNGQlSkvihJiPeDjedPfDJtj/alpha/stream/pakistan-a-vs-sri-lanka-a/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Sports.Dummy.us" tvg-name="RSM Classic | PGA Tour" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/DrewLiveSports.png" group-title="StreamedSU - Other",RSM Classic | PGA Tour
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/aKYiLdgWgHkYBoGpuqFtDoqhOoAoAaxH/echo/stream/rsm-classic-pga-tour-tgl-001/1/playlist.m3u8
+https://lb10.strmd.top/secure/nqClXQpmBALwUXmaaYHbSfJqFMIaWdRo/alpha/stream/portugal-u17-vs-switzerland-u17/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Sports.Dummy.us" tvg-name="CME Group Tour Championship: Featured Groups (Second Round)" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Golf.png" group-title="StreamedSU - Golf",CME Group Tour Championship: Featured Groups (Second Round)
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/njzjXNEfAMpgQdWihIracvCzyclvImYW/alpha/stream/cme-group-tour-championship-featured-groups-second-round/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Al-Hilal Omdurman vs MC Alger" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpiyxcRFAxDcQAExCJ9+iCD7bzughSZ9NbMGXhF5ozU1pgHY0RCA.webp" group-title="StreamedSU - Football",Al-Hilal Omdurman vs MC Alger
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/AociSWucNpJUnxPMxNlXMFvbiowuEqzB/alpha/stream/al-hilal-omdurman-vs-mc-alger/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Northern Warriors vs Ajman Titans" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Cricket.png" group-title="StreamedSU - Cricket",Northern Warriors vs Ajman Titans
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/heptwEaEvGCijuuOUwMtpUGUrmUcPDgP/alpha/stream/northern-warriors-vs-ajman-titans/1/playlist.m3u8
+https://lb1.strmd.top/secure/HlbOtvZqhEanvzPSSVCkVKHkJxmOmOZZ/alpha/stream/cme-group-tour-championship-featured-groups-second-round/1/playlist.m3u8
 #EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="ONE Friday Fights 134 Yodlekpet vs Mammadov" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" group-title="StreamedSU - Fight",ONE Friday Fights 134 Yodlekpet vs Mammadov
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/HPmZAgQLTvRnDlDmqWrQsRzomOZTBXwB/alpha/stream/one-friday-fights-134/1/playlist.m3u8
+https://lb2.strmd.top/secure/vhfnALLVOEHgeoXTbPbjERxMdVMvcBks/alpha/stream/one-friday-fights-134/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Sports.Dummy.us" tvg-name="The RSM Classic SKY" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Golf.png" group-title="StreamedSU - Golf",The RSM Classic SKY
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/mAXKNpmeMcEakVCQhhndPpFnjEqCfQjU/alpha/stream/the-rsm-classic-sky/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Sports.Dummy.us" tvg-name="The RSM Classic: Harman & English Featured Groups (Second Round)" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Golf.png" group-title="StreamedSU - Golf",The RSM Classic: Harman & English Featured Groups (Second Round)
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/tHJuYhwcPDfXIkLkPoybrBRorvVsQGWM/alpha/stream/the-rsm-classic-harman-english-featured-groups-second-round/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Rugby.Dummy.us" tvg-name="Rugby Americas North Sevens | Day 1" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Rugby.png" group-title="StreamedSU - Rugby",Rugby Americas North Sevens | Day 1
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/VNGfTsQvCMcjfvbFqrgRWjWSKlKLHrtx/alpha/stream/rugby-americas-north-sevens-day-1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Darts.Dummy.us" tvg-name="Players Champ: Day 1 Aft Session" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Darts.png" group-title="StreamedSU - Darts",Players Champ: Day 1 Aft Session
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/RvQStbInBygprvfyCytxWPOeEHZQCAsf/alpha/stream/players-champ-day-1-aft-session/1/playlist.m3u8
+https://lb2.strmd.top/secure/sFzyQHfUfyaOjoQBjORdxCLZyPKRRInf/alpha/stream/the-rsm-classic-sky/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Darts.Dummy.us" tvg-name="Players Championship Finals Conference | Day 1 (Session 1)" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Darts.png" group-title="StreamedSU - Darts",Players Championship Finals Conference | Day 1 (Session 1)
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/fFJqDtLGFSKWGKXAovOlvneZIcJSvKii/charlie/stream/day-one-1629470658/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Deccan Gladiators vs Quetta Qavalry" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Cricket.png" group-title="StreamedSU - Cricket",Deccan Gladiators vs Quetta Qavalry
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/jDyLZwASNPOESFjqIeCjxradYWGsZyJI/alpha/stream/deccan-gladiators-vs-quetta-qavalry/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="Brisbane W vs Sydney Thunder W" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Cricket.png" group-title="StreamedSU - Cricket",Brisbane W vs Sydney Thunder W
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/mfNHSDZqtuZLVUwWRdDJLtnWMRBrZvqz/alpha/stream/brisbane-w-vs-sydney-thunder-w/1/playlist.m3u8
+https://lb1.strmd.top/secure/TXanXEaAydlNagrcnGFzTSlbEtokqXZx/charlie/stream/day-one-1629470658/1/playlist.m3u8
