@@ -1,14 +1,34 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="Round 11, Suzuka Circuit | Free Practice 2" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Motorsports3.png" group-title="StreamedSU - Motor Sports",Round 11, Suzuka Circuit | Free Practice 2
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+https://lb3.strmd.top/secure/FZNUnnUSSVoXLdkOUnMuUujJEgYowwNT/alpha/stream/round-11-suzuka-circuit-free-practice-2/1/playlist.m3u8
+#EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Arizona State vs Hawai'i" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball5.png" group-title="StreamedSU - Basketball",Arizona State vs Hawai'i
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+https://lb3.strmd.top/secure/jGLXLchoiLmPzQzCVRVdRhGMuuCGndMh/alpha/stream/arizona-state-vs-hawai-i/1/playlist.m3u8
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="FIA F1 World Championship: FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX 2025: Friday practice 2" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Motorsports3.png" group-title="StreamedSU - Motor Sports",FIA F1 World Championship: FORMULA 1 HEINEKEN SILVER LAS VEGAS GRAND PRIX 2025: Friday practice 2
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/HXNDrBAObdUPWmvKSWGovxOYiOqeZZXt/charlie/stream/formula-1-heineken-silver-las-vegas-grand-prix-2025-friday-practice-2-1629470651/1/playlist.m3u8
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="2nd Practice | Las Vegas Strip Circuit |" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Motorsports3.png" group-title="StreamedSU - Motor Sports",2nd Practice | Las Vegas Strip Circuit |
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/sVcoOmAIQBZXfrfKlLlXCkGXPMbaPpjs/echo/stream/2nd-practice-las-vegas-strip-circuit-formula-1-2489/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Stockton Kings vs Valley Suns" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkuhAwQ9CCBIhEAExDcQfXFtUnDh4yAIUmfFFzBl4ReaIdNaYJ2NEQgA.webp" group-title="StreamedSU - Basketball",Stockton Kings vs Valley Suns
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/nxoRLoFDQKXroxoJROGjTRQHgrmTDYcw/alpha/stream/valley-suns-vs-stockton-kings/1/playlist.m3u8
+https://lb7.strmd.top/secure/IArLSrarmZENDYrdsRKyaQXxhOwrDwEv/alpha/stream/valley-suns-vs-stockton-kings/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="USC vs Troy" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkuhC0QwfCG5gAJgy0gSIY31wGIIFAb4EKTG1zBl4ReaJQbmwME7GiIQA.webp" group-title="StreamedSU - Basketball",USC vs Troy
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/ARDfWGbkUsnUurFyjhhuUcFirIJAcuiX/alpha/stream/troy-vs-usc/1/playlist.m3u8
+https://lb7.strmd.top/secure/JfZjfpwAzmsPZoUoLBevJCflRTLoPNkX/alpha/stream/troy-vs-usc/1/playlist.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Anaheim Ducks vs Ottawa Senators" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkulxFE3MBpQhuIACY6Q2kiEQGT2xhSZ8UXMGXhF5ou01pgHY0RCA.webp" group-title="StreamedSU - Hockey",Anaheim Ducks vs Ottawa Senators
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
@@ -28,12 +48,12 @@ https://gg.poocloud.in/sanjosesharks/index.m3u8
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/KLyZWLEFIOITuzxcoKMpRfwQXSwByrCH/echo/stream/club-tijuana-vs-fc-juarez-football-1485997/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Mississippi State vs Kansas State" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball5.png" group-title="StreamedSU - Basketball",Mississippi State vs Kansas State
+https://lb2.strmd.top/secure/IEMXXbTXRQxAyaavBKqSDKRqXUiXhuEW/echo/stream/club-tijuana-vs-fc-juarez-football-1485997/1/playlist.m3u8
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="FIA Formula 1 2025: Las Vegas F1GP Practice 2" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Motorsports3.png" group-title="StreamedSU - Motor Sports",FIA Formula 1 2025: Las Vegas F1GP Practice 2
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/kSBxXBwoMOrCWHmiqkJRKHnePDjwBJNC/delta/stream/live_ncaa_kansas-st-mississippi-state-live-streaming-424462464/1/playlist.m3u8
+https://lb9.strmd.top/secure/NgyLhUocevzJCUZVigBVpDTxrjDeDbjf/alpha/stream/fia-formula-1-2025-las-vegas-f1gp-practice-2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Cricket.Dummy.us" tvg-name="1st Test, Day 1: Australia vs. England" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzuCkMUFYwBjWfYeYNYLSlK4AQ2EOAFNawBOB2ke-MWiwagEZCp1a9S5StWAATCuIjAujMMAFpIrYZvjpeOfjGB4mtKmBYIdXIbXPkw14CqEQgA.webp" group-title="StreamedSU - Cricket",1st Test, Day 1: Australia vs. England
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
@@ -63,74 +83,49 @@ https://gg.poocloud.in/FOX/index.m3u8
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/uCwSxyKHhGoGXoQpJWiydnqRudmAPvSA/charlie/stream/indonesia-vs-bahrain-1629470644/1/playlist.m3u8
+https://lb3.strmd.top/secure/TFybrOLanxFZXaHpqobYpASrmsitIEIb/charlie/stream/indonesia-vs-bahrain-1629470644/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Football.Dummy.us" tvg-name="Houston Texans vs Buffalo Bills" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkuhAATCjkQCc3ECRC79IEBBAoQMXGoIUmfFFzBl4ReaIdNaYJ2NEQgA.webp" group-title="StreamedSU - American Football",Houston Texans vs Buffalo Bills
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://gg.poocloud.in/houstontexans/index.m3u8
-#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="Round 11, Suzuka Circuit | Free Practice" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Motorsports3.png" group-title="StreamedSU - Motor Sports",Round 11, Suzuka Circuit | Free Practice
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/wMBnlWuSjPjOGwIXmvSsDjRjBHGuiZCA/alpha/stream/round-11-suzuka-circuit-free-practice/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Ohio State vs Western Michigan" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkuhAATCupDsQibmpAQQevSH2GcKAhSZ8UXMGXhF5ou01pgHY0RCA.webp" group-title="StreamedSU - Basketball",Ohio State vs Western Michigan
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/mPAFgFnTSgdcfSlRPCRKmSXUIbKHtxRx/alpha/stream/western-michigan-vs-ohio-state/1/playlist.m3u8
+https://gg.poocloud.in/primenextgen/index.m3u8
 #EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Milwaukee Bucks vs Philadelphia 76ers" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkuhB8Q3ECRARNwACbrNhkNpAGdJnSgIUmfFFzBl4ReaIdNaYJ2NEQgA.webp" group-title="StreamedSU - Basketball",Milwaukee Bucks vs Philadelphia 76ers
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/SrnGwiJUBTUIYdQsGoExyYBVFZFLmcGd/alpha/stream/milwaukee-bucks-vs-philadelphia-76ers/1/playlist.m3u8
+https://lb6.strmd.top/secure/SFIXsreXUABYynPUkHcNZzZFVxVrpmAf/alpha/stream/milwaukee-bucks-vs-philadelphia-76ers/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Memphis Grizzlies vs Sacramento Kings" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkuhCiIIWlDhIQ3EABNdRkKpApTJvgQpMrXMGXhF5olMCa0wDsWqA.webp" group-title="StreamedSU - Basketball",Memphis Grizzlies vs Sacramento Kings
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/HymUQjEWtlsXKdfOiYsMzlZhSaGJCZol/alpha/stream/memphis-grizzlies-vs-sacramento-kings/1/playlist.m3u8
+https://lb4.strmd.top/secure/WBCwiAPhVdWAwbuHCKyABnMROfApOUta/alpha/stream/memphis-grizzlies-vs-sacramento-kings/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="San Antonio Spurs vs Atlanta Hawks" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpm4haWMCBAATEBBCrdiEiBg6QfPSBQhlhGMCZ8UXMGXhF5ol01pg3YqIQQA.webp" group-title="StreamedSU - Basketball",San Antonio Spurs vs Atlanta Hawks
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/HJUCkNThFlciwYWWlWLngXPBHpDpaBPT/alpha/stream/san-antonio-spurs-vs-atlanta-hawks/1/playlist.m3u8
+https://lb10.strmd.top/secure/PRUlAzkaRVCdpCiCNTznEJGGRXeMXALs/alpha/stream/san-antonio-spurs-vs-atlanta-hawks/1/playlist.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="Chicago Blackhawks vs Seattle Kraken" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkpiTkQICCBRsQ3ECS36QfY0fWIAJgQpM+2tmDLwi80dqa0wjsaIhA.webp" group-title="StreamedSU - Hockey",Chicago Blackhawks vs Seattle Kraken
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://gg.poocloud.in/chicagoblackhawks/index.m3u8
-#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="TNA: Impact" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" group-title="StreamedSU - Fight",TNA: Impact
+https://lb6.strmd.top/secure/HqCtbFDfDkjEgudPhiBtoRwUikYuXiKc/alpha/stream/chicago-blackhawks-vs-seattle-kraken/1/playlist.m3u8
+#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="TNA: Impact " tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" group-title="StreamedSU - Fight",TNA: Impact 
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://gg.poocloud.in/wrestling/index.m3u8
-#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="FIA Formula 1 2025: Las Vegas F1 Academy Practice 1" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Motorsports3.png" group-title="StreamedSU - Motor Sports",FIA Formula 1 2025: Las Vegas F1 Academy Practice 1
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/djeyAhEoWTdFUxlaXGrTwPEVQwlELadn/alpha/stream/fia-formula-1-2025-las-vegas-f1-academy-practice-1/1/playlist.m3u8
+https://lb4.strmd.top/secure/HtDUZWcZvhtnFKYGcsimyKpTvBwaQhtu/echo/stream/tna-impact-tna/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Football.Dummy.us" tvg-name="Arkansas State vs Louisiana" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkhwAmIeJHUhea7iBIg1ELYl1a+BCkwtcwZDfXmiUwJrTB2xoiEA.webp" group-title="StreamedSU - American Football",Arkansas State vs Louisiana
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/mVJEftqMwKWrQRZUsAOCMlXFTBXDHmjC/alpha/stream/louisiana-vs-arkansas-state/1/playlist.m3u8
+https://lb7.strmd.top/secure/npbVDvtnxNYzmNnZvDEdYQacOLxkVXIS/alpha/stream/louisiana-vs-arkansas-state/1/playlist.m3u8
 #EXTINF:-1 tvg-id="Football.Dummy.us" tvg-name="Northwestern State vs Stephen F. Austin" tvg-logo="https://streamed.pk/api/images/badge/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTt0z1Rvdqyw8xAkh3kATECRAoQibdw0h1EHQb4hz+vgQpMrXMGXhF5olMCa0wDsaIhA.webp" group-title="StreamedSU - American Football",Northwestern State vs Stephen F. Austin
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/yiWRLXXREjUAEAHeuCkDeXQAOhbolhcw/alpha/stream/stephen-f-austin-vs-northwestern-state/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="Biblical Studies vs Houston Christian" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball5.png" group-title="StreamedSU - Basketball",Biblical Studies vs Houston Christian
+https://lb10.strmd.top/secure/wIxHHaBqjYJmFHlaCllPjNeOZACjXkXn/alpha/stream/stephen-f-austin-vs-northwestern-state/1/playlist.m3u8
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="Las Vegas Grand Prix Free Practice 1" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Motorsports3.png" group-title="StreamedSU - Motor Sports",Las Vegas Grand Prix Free Practice 1
 #EXTVLCOPT:http-origin=https://embedsports.top
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/BARYNuiULcUpoCbOCXnDlxhMVlxhRenI/alpha/stream/biblical-studies-vs-houston-christian/1/playlist.m3u8
-#EXTINF:-1 tvg-id="Basketball.Dummy.us" tvg-name="South Dakota vs Missouri" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Basketball5.png" group-title="StreamedSU - Basketball",South Dakota vs Missouri
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/XlBosPpsVgGgXSIsGPMlpcaWgAYdaDCt/alpha/stream/south-dakota-vs-missouri/1/playlist.m3u8
-#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="IMPACT Wrestling" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Combat-Sports.png" group-title="StreamedSU - Fight",IMPACT Wrestling
-#EXTVLCOPT:http-origin=https://embedsports.top
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/AqbgoCGHfUHmtMWRaKBERTXhGTRsXBdy/alpha/stream/impact-wrestling/1/playlist.m3u8
+https://gg.poocloud.in/f1/index.m3u8
